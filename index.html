@@ -1,0 +1,913 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="initial-scale=1, width=device-width, maximum-scale=1, minimum-scale=1, user-scalable=no">
+	<title></title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/header.css">
+	<link rel="stylesheet" href="css/footer.css">
+	<link rel="stylesheet" href="css/hai/haistyle.css">
+	<link rel="stylesheet" href="css/long/longstyle.css">
+	<link rel="stylesheet" media="screen" href="css/bootstrap.css">
+	<link rel="stylesheet" href="fontawesome-free-5.11.2-web/css/all.min.css">
+	<link rel=”stylesheet” href=”https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css”>
+	<link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="header">
+		<div class="container flex header-pc" id="header">
+			<div class="bars">
+				<i class="fas fa-bars" id="menuBar" onclick="check()"></i>
+			</div>
+			<div class="logo">
+				<a href="index.html" title="">
+					<img src="images/logo/logo3.png" alt="">
+				</a>
+			</div>
+			<div class="menu" id="">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="product.html">Product</a>
+						<div class="pro-menu">
+							<ul>
+								<li>
+									<ul>
+										<li><a href=""></a></li>
+										<li><a href=""></a></li>
+										<li><a href=""></a></li>
+										<li><a href=""></a></li>
+									</ul>
+								</li>
+								<li>
+									<ul>
+										<li><a href="	"></a></li>
+										<li><a href="	"></a></li>
+										<li><a href="	"></a></li>
+										<li><a href="	"></a></li>
+									</ul>
+								</li>
+								<li>
+									<ul>
+										<li><a href="	"></a></li>
+										<li><a href="	"></a></li>
+										<li><a href="	"></a></li>
+										<li><a href="	"></a></li>
+									</ul>
+								</li>
+								<li>
+									<ul>
+										<li><a href="	"></a></li>
+										<li><a href="	"></a></li>
+										<li><a href="	"></a></li>
+										<li><a href="	"></a></li>
+									</ul>
+								</li>
+							</ul>
+						</div>
+					</li>
+					<li><a href="gallery.html">Gallery</a></li>
+					<li><a href="blog.html">Blog</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</div>
+			<div class="right flex">
+				<div class="search width33">
+					<form>
+						<a href="" title="">
+							<i class="fa fa-search" aria-hidden="true"></i>
+						</a>
+					</form>
+				</div>
+				<div class="cart width33">
+					<div class="icon-cart">
+						<a href="cart.html" title="">
+							<i class="fa fa-shopping-cart" aria-hidden="true"></i>
+						</a>
+					</div>
+					<div class="info-cart">
+					
+					</div>
+				</div>
+				<div class="acc width33">
+					<a href="login.html" title="">
+						<i class="fa fa-user" aria-hidden="true"></i>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="menu-mobile" id="menu-ac">
+		<div class="container2">
+			<div class="logo-mo-menu">
+				<a href="index.html" title="">
+					<img src="images/logo/logo3.jpg" alt="" width="100px">
+				</a>
+			</div>
+			<div class="mobile-icon-contact flex">
+				<div class="search width33">
+					<form>
+						<a href="" title="">
+							<i class="fa fa-search" aria-hidden="true"></i>
+						</a>
+					</form>
+				</div>
+				<div class="cart width33">
+					<div class="icon-cart">
+						<a href="cart.html" title="">
+							<i class="fa fa-shopping-cart" aria-hidden="true"></i>
+						</a>
+					</div>
+					<div class="info-cart">
+					
+					</div>
+				</div>
+				<div class="acc width33">
+					<a href="login.html" title="">
+						<i class="fa fa-user" aria-hidden="true"></i>
+					</a>
+				</div>
+			</div>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="about.html">About</a></li>
+			<li>
+				<div class="pro-me flex">
+					<div class="x width50">	
+						<a href="product.html">Product</a>
+					</div>
+					<div class="angle-down width50" id="a-down1">	
+						<i class="fa fa-angle-down" aria-hidden="true" onclick="show1()"></i>
+					</div>
+					<div class="angle-up width50 display-none" id="a-up1">	
+						<i class="fa fa-angle-up" aria-hidden="true" onclick="hide1()"></i>
+					</div>
+				</div>
+				<div class="pro-menu-mo display-none" id="cat-item1">
+					<ul>
+						<li style="padding: 10px 0px">
+							<div class="name-cat flex">
+								<p class="width50">Bread</p>
+								<div class="angle-down width50" id="a-down2">
+									<i class="fa fa-angle-down" aria-hidden="true" onclick="show2()"></i>
+								</div>
+								<div class="angle-up width50 display-none" id="a-up2">	
+									<i class="fa fa-angle-up" aria-hidden="true" onclick="hide2()"></i>
+								</div>
+							</div>
+							<div class="cat-item display-none" id="cat-item2">	
+								<ul>
+									<li style="padding: 10px 0px;font-style: italic;"><a href="">Chiffon cake</a></li>
+									<li style="padding: 10px 0px;font-style: italic;"><a href="">Cookie</a></li>
+									<li style="padding: 10px 0px;font-style: italic;"><a href="">Croissant</a></li>
+									<li style="border-bottom: none; padding: 10px 0px;font-style: italic;"><a href="">Dread stick</a></li>
+								</ul>
+							</div>
+						</li>
+						<li style="padding: 10px 0px">
+							<div class="name-cat flex">
+								<p class="width50">Cake</p>
+								<div class="angle-down width50" id="a-down3">	
+									<i class="fa fa-angle-down" aria-hidden="true"onclick="show3()"></i>
+								</div>
+								<div class="angle-up width50 display-none" id="a-up3">	
+									<i class="fa fa-angle-up" aria-hidden="true" onclick="hide3()"></i>
+								</div>
+							</div>
+							<div class="cat-item display-none" id="cat-item3">	
+								<ul>
+									<li style="padding: 10px 0px;font-style: italic;"><a href="">Coffee cake</a></li>
+									<li style="padding: 10px 0px;font-style: italic;"><a href="">Chiffon cake</a></li>
+									<li style="padding: 10px 0px;font-style: italic;"><a href="">CupCake</a></li>
+									<li style="border-bottom: none; padding: 10px 0px;font-style: italic;"><a href="">Pound cake</a></li>
+								</ul>
+							</div>
+						</li>
+						<li style="padding: 10px 0px">
+							<div class="name-cat flex">
+								<p class="width50">Chocolate cake</p>
+								<div class="angle-down width50" id="a-down4">	
+									<i class="fa fa-angle-down" aria-hidden="true" onclick="show4()"></i>
+								</div>
+								<div class="angle-up width50 display-none" id="a-up4">	
+									<i class="fa fa-angle-up" aria-hidden="true" onclick="hide4()"></i>
+								</div>
+							</div>
+							<div class="cat-item display-none" id="cat-item4">	
+								<ul>
+									<li style="padding: 10px 0px"><a href="">Vietnamese savery pancake</a></li>
+									<li style="padding: 10px 0px"><a href="">Korena cake</a></li>
+									<li style="padding: 10px 0px"><a href="">Muffin</a></li>
+									<li style="border-bottom: none; padding: 10px 0px"><a href="">Rice rall</a></li>
+								</ul>
+							</div>
+						</li>
+						<li style="padding: 10px 0px">
+							<div class="name-cat flex">
+								<p class="width50">Kitchen tool</p>
+								<div class="angle-down width50" id="a-down5">	
+									<i class="fa fa-angle-down" aria-hidden="true" onclick="show5()"></i>
+								</div>
+								<div class="angle-up width50 display-none" id="a-up5">	
+									<i class="fa fa-angle-up" aria-hidden="true" onclick="hide5()"></i>
+								</div>
+							</div>
+							<div class="cat-item display-none" id="cat-item5">	
+								<ul>
+									<li style="padding: 10px 0px"><a href="">Toaster</a></li>
+									<li style="padding: 10px 0px"><a href="">Garlic</a></li>
+									<li style="padding: 10px 0px"><a href="">Broller</a></li>
+									<li style="border-bottom: none; padding: 10px 0px"><a href="">Over glaves</a></li>
+								</ul>
+							</div>
+						</li>
+						
+					</ul>
+				</div>		
+			</li>
+			<li><a href="gallery.html">Gallery</a></li>
+			<li><a href="blog.html">Blog</a></li>
+			<li><a href="contact.html">Contact</a></li>
+		</ul>
+	</div>
+	</div>
+	<div class="main">
+		<div class="banner">
+			<img src="images/banner/86846122-banner-for-pastry-and-bakery-food-and-nutrition.jpg" alt="">
+		</div>
+		<div class="intro">
+			<div class="container">
+				<div class="img">
+					<img src="images/banner/we.jpg" alt="">
+				</div>
+				<div class="content">
+					<p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+				</div>
+				<div class="sign">
+					<img src="images/sign/Thiepmung.jpg" alt="">
+					<div class="fullname">
+						<p><span>Joseph Murphy</span> - Store owner</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="intro2 flex con-intro-res">
+			<div class="left">
+				<div class="freeship flex">
+					<div class="icon wid-res">
+						<img src="images/khung/freeship-icon.jpg" alt="">
+					</div>
+					<div class="text wid-res2">
+						<h2>Free shipping</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					</div>
+				</div>
+				<div class="cussupport flex">
+					<div class="icon wid-res">
+						<img src="images/khung/Ellipse-14.jpg" alt="">
+					</div>
+					<div class="text wid-res2">
+						<h2>Customer support</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					</div>
+				</div>
+				<div class="gfhealth flex">
+					<div class="icon wid-res">
+						<img src="images/khung/Ellipse-15.jpg" alt="">
+					</div>
+					<div class="text wid-res2">
+						<h2>Good for health</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					</div>
+				</div>
+			</div>
+			<div class="mid">
+				<div class="img">
+					<img src="images/khung/Untitled-2.jpg" alt="">
+				</div>
+			</div>
+			<div class="right">
+				<div class="organic flex">
+					<div class="text width80">
+						<h2>100% organic</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					</div>
+					<div class="icon width20">
+						<img src="images/khung/Ellipse-12.jpg" alt="">
+					</div>
+				</div>
+				<div class="sccure flex">
+					<div class="text width80">
+						<h2>Sccure payment</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					</div>
+					<div class="icon width20">
+						<img src="images/khung/Ellipse-11.jpg" alt="">
+					</div>		
+				</div>
+				<div class="high-quality flex">
+					<div class="text width80">
+						<h2>High-quality products</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					</div>
+					<div class="icon width20">
+						<img src="images/khung/Ellipse-13.jpg" alt="">
+					</div>
+				</div>	
+			</div>
+			<div class="right-mo">
+				<div class="organic flex">
+					<div class="icon width20">
+						<img src="images/khung/Ellipse-12.jpg" alt="">
+					</div>
+					<div class="text width80">
+						<h2>100% organic</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					</div>
+				</div>
+				<div class="sccure flex">
+					<div class="icon width20">
+						<img src="images/khung/Ellipse-11.jpg" alt="">
+					</div>
+					<div class="text width80">
+						<h2>Sccure payment</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					</div>		
+				</div>
+				<div class="high-quality flex">
+					<div class="icon width20">
+						<img src="images/khung/Ellipse-13.jpg" alt="">
+					</div>
+					<div class="text width80">
+						<h2>High-quality products</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					</div>
+				</div>	
+			</div>
+		</div>
+		<div class="sale">
+			<img src="images/khung/Untitled-4.jpg" alt="" width="100%">
+			<div class="img-bg2">
+				<img src="images/khung/Img2.jpg" alt="">
+			</div>
+			<div class="container-res">
+				<div class="sale-info">
+					<h1>Big sale today</h1>
+					<p>get 30% of your order of $100 or more</p>
+					<h2>Coffee cake</h2>
+					<div class="td">
+						<h3><span>$8.75</span> Now only $2.75</h3>
+					</div>
+					<h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. </h4>
+					<div class="time flex">
+						<div class="day witdth25time same-sale-time">
+							<form action="">
+								<input type="text" name="" value="" placeholder="">
+							</form>
+						</div>
+						<div class="hours witdth25time same-sale-time">
+							<form action="">
+								<input type="text" name="" value="" placeholder="">
+							</form>
+						</div>
+						<div class="min witdth25time same-sale-time">
+							<form action="">
+								<input type="text" name="" value="" placeholder="">
+							</form>
+						</div>
+						<div class="sec witdth25time same-sale-time">
+							<form action="">
+								<input type="text" name="" value="" placeholder="">
+							</form>
+						</div>
+					</div>
+					<div class="btnatc">
+						<a href="">
+							<button style="submit" class="button">
+								<div class="i">
+									<i class="fa fa-shopping-cart" aria-hidden="true"></i>
+								</div>
+								<span>Add to cart</span>
+							</button>
+						</a>
+						<a href="">
+							<button style="submit" class="button2">
+								<div class="i">
+									<i class="fa fa-heart" aria-hidden="true"></i>
+								</div>
+							</button>
+						</a>
+						<a href="">
+							<button style="submit" class="button2">
+								<div class="i">
+									<i class="fa fa-search" aria-hidden="true"></i>
+								</div>
+							</button>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="new-pro">
+			<div class="container">
+				<div class="title">
+					<img src="images/logo/03_Home_03-Recovered.jpg" alt="">
+				</div>
+				<div class="list flex">
+					<div class="p1 wid25-res">
+						<div class="form">
+							<form>
+								<div class="img">
+									<input type="text" name="" value="" placeholder="">
+								</div>
+								<div class="name">
+									<input type="text" name="" value="" placeholder="">
+								</div>
+								<div class="price">
+									<input type="text" name="" value="" placeholder="">
+								</div>
+							</form>
+						</div>
+					</div>
+					<div class="p2 wid25-res">
+						<div class="form">
+							<form>
+								<div class="img">
+									<input type="text" name="" value="" placeholder="">
+								</div>
+								<div class="name">
+									<input type="text" name="" value="" placeholder="">
+								</div>
+								<div class="price">
+									<input type="text" name="" value="" placeholder="">
+								</div>
+							</form>
+						</div>
+					</div>
+					<div class="p3 wid25-res">
+						<div class="form under-mo">
+							<form>
+								<div class="img">
+									<input type="text" name="" value="" placeholder="">
+								</div>
+								<div class="name">
+									<input type="text" name="" value="" placeholder="">
+								</div>
+								<div class="price">
+									<input type="text" name="" value="" placeholder="">
+								</div>
+							</form>
+						</div>
+					</div>
+					<div class="p4 wid25-res">
+						<div class="form under-mo">
+							<form>
+								<div class="img">
+									<input type="text" name="" value="" placeholder="">
+								</div>
+								<div class="name">
+									<input type="text" name="" value="" placeholder="">
+								</div>
+								<div class="price">
+									<input type="text" name="" value="" placeholder="">
+								</div>
+							</form>
+						</div>
+					</div>
+					<div class="p5 wid25-res">
+						<div class="form under">
+							<form>
+								<div class="img">
+									<input type="text" name="" value="" placeholder="">
+								</div>
+								<div class="name">
+									<input type="text" name="" value="" placeholder="">
+								</div>
+								<div class="price">
+									<input type="text" name="" value="" placeholder="">
+								</div>
+							</form>
+						</div>
+					</div>
+					<div class="p6 wid25-res">
+						<div class="form under">
+							<form>
+								<div class="img">
+									<input type="text" name="" value="" placeholder="">
+								</div>
+								<div class="name">
+									<input type="text" name="" value="" placeholder="">
+								</div>
+								<div class="price">
+									<input type="text" name="" value="" placeholder="">
+								</div>
+							</form>
+						</div>
+					</div>
+					<div class="p7 wid25-res">
+						<div class="form under">
+							<form>
+								<div class="img">
+									<input type="text" name="" value="" placeholder="">
+								</div>
+								<div class="name">
+									<input type="text" name="" value="" placeholder="">
+								</div>
+								<div class="price">
+									<input type="text" name="" value="" placeholder="">
+								</div>
+							</form>
+						</div>
+					</div>
+					<div class="p8 wid25-res">
+						<div class="form under">
+							<form>
+								<div class="img">
+									<input type="text" name="" value="" placeholder="">
+								</div>
+								<div class="name">
+									<input type="text" name="" value="" placeholder="">
+								</div>
+								<div class="price">
+									<input type="text" name="" value="" placeholder="">
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="rate">
+			<div class="container2-res">
+				<div class="title">
+					<h1>We are proud to be the best baker</h1>
+					<div class="p">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua.</p>
+					</div>
+				</div>
+				<div class="rate-index flex">
+					<div class="like cus-rate-index cus-border">
+						<div class="img">
+							<img src="images/rateicon/Icon5.jpg" alt="">
+						</div>
+						<div class="info">
+							<h1>8.462+</h1>
+							<p>Happy customers</p>
+						</div>
+					</div>
+					<div class="factory cus-rate-index cus-border">
+						<div class="img">
+							<img src="images/rateicon/Icon6.jpg" alt="">
+						</div>
+						<div class="info">
+							<h1>253</h1>
+							<p>Bread fatory</p>
+						</div>
+					</div>
+					<div class="baker cus-rate-index cus-border">
+						<div class="img">
+							<img src="images/rateicon/Icon7.jpg" alt="">
+						</div>
+						<div class="info">
+							<h1>172</h1>
+							<p>Professional baker</p>
+						</div>
+					</div>
+					<div class="pro-num cus-rate-index">
+						<div class="img">
+							<img src="images/rateicon/Icon8.jpg" alt="">
+						</div>
+						<div class="info">
+							<h1>10.742+</h1>
+							<p>The cake is produced</p>
+						</div>
+					</div>
+				</div>
+				<div class="img-bread">
+					<img src="images/about images/Untitled-4.jpg" alt="">
+				</div>
+			</div>
+		</div>
+		<div class="latest-pro">
+			<div class="container2-res">
+				<div class="title">
+					<img src="images/lastest pro/03_Home_03-Recovered.jpg" alt="">
+				</div>
+				<div class="menu">
+					<ul>
+						<li><a href="">Cake</a></li>/
+						<li><a href="">Bread</a></li>/
+						<li><a href="">Birthday cake</a></li>/
+						<li><a href="">Wedding cake</a></li>
+					</ul>
+				</div>
+				<div class="pr-info flex">
+					<div class="pr1 width50 flex pa">
+						<div class="img width20">
+							<img src="images/lastest pro/vanilla-cake-thumb-500x500.jpg" alt="">
+						</div>
+						<div class="info width80 borderbot">
+							<h3>Doughnut</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodLorem ipsum dolor sit amet, consectetur
+							</p>
+							<span>$7.00</span>
+						</div>
+					</div>
+					<div class="pr2 width50 flex pa">
+						<div class="img width20">
+							<img src="images/lastest pro/vanilla-cake-thumb-500x500.jpg" alt="">
+						</div>
+						<div class="info width80 borderbot">
+							<h3>Doughnut</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodLorem ipsum dolor sit amet, consectetur
+							</p>
+							<span>$7.00</span>
+						</div>
+					</div>
+					<div class="pr3 width50 flex pa">
+						<div class="img width20">
+							<img src="images/lastest pro/vanilla-cake-thumb-500x500.jpg" alt="">
+						</div>
+						<div class="info width80 borderbot">
+							<h3>Doughnut</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodLorem ipsum dolor sit amet, consectetur
+							</p>
+							<span>$7.00</span>
+						</div>
+					</div>
+					<div class="pr4 width50 flex pa">
+						<div class="img width20">
+							<img src="images/lastest pro/vanilla-cake-thumb-500x500.jpg" alt="">
+						</div>
+						<div class="info width80 borderbot">
+							<h3>Doughnut</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodLorem ipsum dolor sit amet, consectetur
+							</p>
+							<span>$7.00</span>
+						</div>
+					</div>
+					<div class="pr5 width50 flex pa">
+						<div class="img width20">
+							<img src="images/lastest pro/vanilla-cake-thumb-500x500.jpg" alt="">
+						</div>
+						<div class="info width80">
+							<h3>Doughnut</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodLorem ipsum dolor sit amet, consectetur
+							</p>
+							<span>$7.00</span>
+						</div>
+					</div>
+					<div class="pr6 width50 flex pa">
+						<div class="img width20">
+							<img src="images/lastest pro/vanilla-cake-thumb-500x500.jpg" alt="">
+						</div>
+						<div class="info width80">
+							<h3>Doughnut</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodLorem ipsum dolor sit amet, consectetur
+							</p>
+							<span>$7.00</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="re-form">
+			<img src="images/banner/108944846-assortment-of-baked-bread-on-wooden-table-background-banner-for-advertising-and-design-promo-top-vie.jpg" alt="" width="100%">
+			<div class="form flex con-res">
+				<div class="title">
+					<img src="images/banner/Screenshot-(47).jpg" alt="" width="100%">
+				</div>
+				<div class="form-re">
+					<div class="text-mo">
+						<h1>Order online</h1>
+					</div>
+					<form>
+						<div class="name cus-re-form">
+							<input class="" type="text" name="_name" value="" placeholder="Your name">
+						</div>
+						<div class="add cus-re-form">
+							<input class="" type="text" name="_add" value="" placeholder="Address">
+						</div>
+						<div class="phone cus-re-form">
+							<input class="" type="text" name="_phone" value="" placeholder="Your phone">
+						</div>
+						<div class="email cus-re-form">
+							<input class="" type="text" name="_email" value="" placeholder="Your email">
+						</div>
+						<div class="t flex">
+							<div class="date cus-re-form2 width50">
+								<input class="" type="text" name="_date" value="" placeholder="Date">
+							</div>
+							<div class="time cus-re-form2 width50">
+								<input class="" type="text" name="_time" value="" placeholder="Time">
+							</div>
+						</div>
+						<div class="pro-select cus-re-form">
+							<select name="" id="" class="">
+								<option value="">1</option>
+								<option value="">2</option>
+								<option value="">3</option>
+								<option value="">4</option>
+							</select>
+						</div>
+						<div class="message cus-re-form">
+							<textarea class="" rows="3"width=device-width placeholder=""></textarea>
+						</div>
+					</form>
+					<div class="contact flex">
+						<div class="btnorder">
+							<a href="">
+								<button style="submit" class="button">
+									<div class="i">
+										<i class="fa fa-paper-plane" aria-hidden="true"></i>
+									</div>
+									<div class="s">
+										<span>Order now</span>
+									</div>
+								</button>
+							</a>
+						</div>
+						<div class="phone width50-res-contact">
+							<p>Online support: <span>(883) 153 8591</span></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="blog container">
+			<div class="title">
+				<img src="images/banner/03_Home_03-Recovered.jpg" alt="">
+			</div>
+			<div class="item flex">
+				<div class="item1 width33-res">
+					<div class="img">
+						<img src="images/about images/Untitled-8.jpg" alt="">
+					</div>
+					<div class="text">
+						<h1>How to make cake: 9 steps <br>(with picture)</h1>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat.</p>
+					</div>
+				</div>
+				<div class="item2 width33-res">
+					<div class="img">
+						<img src="images/about images/Untitled-8.jpg" alt="">
+					</div>
+					<div class="text">
+						<h1>How to make cake: 9 steps <br>(with picture)</h1>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat.</p>
+					</div>
+				</div>
+				<div class="item3 width33-res">
+					<div class="img">
+						<img src="images/about images/Untitled-8.jpg" alt="">
+					</div>
+					<div class="text">
+						<h1>How to make cake: 9 steps <br>(with picture)</h1>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="footer">
+		<div class="container flex">
+			<div class="info">
+				<div class="logo">
+					<a href="">
+						<img src="images/logo/logo4.png" alt="">
+					</a>
+				</div>
+				<div class="info-text">
+					<p>ThemeMu comes with powerful theme options, which empowers you to quickly and easily build incredible store.</p>
+				</div>
+				<div class="icon-contact flex">
+					<div class="fb width25o">
+						<a href="" title="">
+							<i class="fab fa-facebook"></i>					
+						</a>
+					</div>
+					<div class="twitter width25o">
+						<a href="" title="">
+							<i class="fab fa-twitter"></i>
+						</a>
+					</div>
+					<div class="viber width25o">
+						<a href="" title="">
+							<i class="fab fa-viber"></i>
+						</a>
+					</div>
+					<div class="insta width25o">
+						<a href="" title="">
+							<i class="fab fa-instagram"></i>
+						</a>
+					</div> 
+				</div>
+			</div>
+			<div class="contact">
+				<div class="title">
+					<h3>Contact</h3>
+				</div>
+				<div class="info-contact">
+					<div class="add flex">
+						<div class="icon">
+							<i class="fa fa-map-marker" aria-hidden="true"></i>
+						</div>
+						<div class="info-add width70">
+							<p><span>Address: </span>105, B Block, West Street, London, BCA, UK</p>
+						</div>
+					</div>
+					<div class="phone flex">
+						<div class="icon">
+							<i class="fas fa-phone"></i>
+						</div>
+						<div class="info-phone width70">
+							<p><span>Phone: </span>800 000 000</p>
+						</div>
+					</div>
+					<div class="email flex">
+						<div class="icon">
+							<i class="fas fa-envelope"></i>
+						</div>
+						<div class="info-email width70">
+							<p><span>Email: </span>happfarm@support.com</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="recent-post">
+				<div class="title">
+					<h3>Recent post</h3>
+				</div>
+				<div class="content1 flex">
+					<div class="img">
+						
+					</div>
+					<div class="post width70">
+						<p><span>Etiam accumsan conse-quat libero et tincidunt <br></span>Aug 18, 2018</p>
+					</div>
+				</div>
+				<div class="content2 flex">
+					<div class="img">
+						
+					</div>
+					<div class="post width70">
+						<p><span>Etiam accumsan conse-quat libero et tincidunt <br></span>Aug 18, 2018</p>
+					</div>
+				</div>
+			</div>
+			<div class="insta-photos">
+				<div class="title">
+					<h3>Photo in instagram</h3>
+				</div>
+				<div class="content">
+					
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="copyright">
+		<div class="container flex">
+			<div class="left">
+				<p>Copyright &copy 2019 Bakery - Designed by ThemeMu</p>
+			</div>
+			<div class="right">
+				<ul>
+					<li><a href="">Contact</a></li>
+					<li><a href="">Site map</a></li>
+					<li><a href="">Policy</a></li>
+					<li><a href="">Term of Use Privacy</a></li>
+					<li><a href="">Pay</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="opAll" id="opAll" onclick="back()">
+		
+	</div>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/jquery.validate.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/index.js"></script>
+	<script src="js/wow.min.js"></script>
+</body>
+</html>

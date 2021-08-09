@@ -1,0 +1,1060 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+.dis-block{
+	display: block;
+}
+.opacityAll{
+	width: 100%;
+    height: 100%;
+    z-index: 1000;
+    top: 0px;
+    left: 0;
+    position: fixed;
+    background: black;
+    opacity: 0.6;
+    overflow: hidden;
+    /*display: none;*/
+}
+.container{
+	width: 70%;
+	margin: 0 auto;
+}
+.flex{
+	display: flex;
+	flex-wrap: wrap;
+}
+/*css main*/
+.main{
+	padding-top: 72px
+}
+.main .banner img{
+	width: 100%
+}
+.main .intro{
+	text-align: center;
+	padding-top: 103px;
+}
+.main .intro .img{
+	padding-bottom: 43px
+}
+.main .intro .content p{
+	font-style: italic;
+}
+.main .intro .sign span{
+	color: #C8AA78;
+	font-weight: bold;
+}
+.main .intro .sign{
+	padding-bottom: 100px
+}
+.width33{
+	width: 33%;
+}
+/*style intro2*/
+.intro2{
+	padding-top: 20px
+}
+.intro2 .mid{
+	display: none
+}
+.intro2 .right-mo .text{
+	padding-left: 20px
+}
+.intro2 .right{
+	display: none
+}
+.intro2 .icon{
+	padding-top: 24px
+}
+.intro2 .icon img{
+	width: 100%
+}
+.intro2 .left .text{
+	padding-left: 20px
+}
+.intro2 .mid{
+	display: none
+}
+.intro2 .right-mo .text{
+	padding-left: 20px
+}
+.intro2 .right{
+	display: none
+}
+.intro2 .text h2{
+	font-weight: bold;
+	font-size: 25px
+}
+.intro2 .text p{
+	padding-top: 15px
+}
+.width80{
+	width: 80%;
+}
+.intro2 .mid{
+	display: none
+}
+.intro2 .right-mo .text{
+	padding-left: 20px
+}
+.intro2 .right{
+	display: none
+}
+.intro2 .right .text{
+	text-align: right;
+	padding-right: 20px
+}
+.main .intro .img img{
+	width: 100%
+}
+.main .intro .sign img{
+	width: 100%
+}
+.wid-res{
+	width: 20%
+}
+.wid-res2{
+	width: 80%
+}
+.container-res{
+	width: 90%;
+	margin: 0 auto
+}
+.main .sale{
+	/*background-image: url("../images/khung/Untitled-4.jpg");*/
+	position: relative;
+	padding-top: 80px
+}
+.main .sale img{
+	/*background-image: url("../images/khung/Untitled-4.jpg");*/
+	display: none
+}
+/*.main .sale img{
+	background-image: url("../images/khung/Untitled-4.jpg");
+	position: relative;
+}*/
+.main .sale .img-bg2{
+	position: absolute;
+	top: 13%;
+	left: 19%;
+	width: 30%;
+}
+.main .sale .img-bg2 img{
+	 width: 100%;
+	-webkit-box-shadow: 9px 8px 18px -9px rgba(0,0,0,0.75);
+	-moz-box-shadow: 9px 8px 18px -9px rgba(0,0,0,0.75);
+	box-shadow: 9px 8px 18px -9px rgba(0,0,0,0.75);
+}
+.main .sale .sale-info{
+	width: 100%;
+	/*position: absolute;
+	top: 13%;
+	left: 52%;*/
+}
+.main .sale .sale-info h1{
+	font-weight: bold;
+	font-size: 35px
+}
+.main .sale .sale-info p{
+	text-transform: uppercase;
+	font-size: 10px;
+	letter-spacing: 5px;
+	padding-top: 2%
+
+}
+.main .sale .sale-info h2{
+	font-weight: bold;
+	padding-top: 2%
+
+}
+.main .sale .sale-info h3{
+	color: #C8AA78;
+	font-weight: bold;
+}
+.main .sale .sale-info .td span{
+	text-decoration: line-through;
+}
+.main .sale .sale-info h4{
+	font-size: 12px;
+	opacity: 0.7;
+	letter-spacing: 1px;
+	padding-top: 07%
+}
+.main .sale .sale-info .time{
+	padding: 10% 0%
+}
+.same-sale-time input{
+	padding: 20px 30px;
+	width: 60%;
+	border-radius: 50px;
+	border: 1px solid #C8AA78;
+}
+.witdth25time{
+	width: 25%;
+	text-align: center;
+}
+.main .sale .sale-info .button{
+	padding: 13px;
+	width: 65%;
+	position: relative;
+	background: #C8AA78;
+	border-radius: 5px;
+	border:none;
+}
+.main .sale .sale-info .button i{
+	color: #C8AA78
+}
+.main .sale .sale-info .button span{
+	text-transform: uppercase;
+	color: white
+}
+.main .sale .sale-info .button2{
+	padding: 13px;
+	background: #C8AA78;
+	border-radius: 5px;
+	border:none;
+	width: 15%
+}
+.main .sale .sale-info .button2 i{
+	color: white
+}
+.main .sale .sale-info .button .i{
+	position: absolute;
+	top: 9%;
+	left: 2%;
+	background: red;
+	padding: 8px;
+	width: 18%;
+	border-radius: 5px;
+	background: #FFFFFF
+}
+/*css new pro*/
+.main .new-pro{
+	padding: 100px 0px;
+
+}
+.main .new-pro .title{
+	text-align: center;
+	padding-bottom: 40px
+	
+}
+.main .new-pro .title img{
+	width: 100%
+	
+}
+.wid25-res{
+	width: 50%;
+	text-align: center;
+}
+.wid25-res .form .img input{
+	width: 101%;
+	padding: 40%;
+	border: 1px solid #C8AA78;
+	border-bottom: none
+}
+.wid25-res .form{
+	padding-right: 20px
+}
+.wid25-res .under{
+	padding-top: 20px;
+}
+.wid25-res .under-mo{
+	padding-top: 20px;
+}
+.wid25-res .form .name input{
+	border: 1px solid #C8AA78;
+	border-bottom: none;
+	border-top: none;
+	padding: 5%;
+	width: 101%;
+	background: #FFFCF7;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.wid25-res .form .price input{
+	border: 1px solid #C8AA78;
+	border-top: none;
+	padding: 5%;
+	width: 101%;
+	background: #FFFCF7;
+	text-align: center;
+	font-weight: bold;
+	color: #C8AA78
+}
+
+/*css rate*/
+.container2-res{
+	width: 90%;
+	margin: 0 auto
+}
+.main .rate{
+	background: #C8AA78;
+	text-align: center;
+	position: relative;
+}
+.main .rate .title{
+	padding-top: 80px
+}
+.main .rate .title .p{
+	/*padding: 0% 25%*/
+}
+.main .rate .rate-index p{
+	/*padding: 0% 25%*/
+	font-size: 10px
+}
+.main .rate h1{
+	font-weight: bold;
+	font-size: 20px
+}
+.main .rate-index{
+	padding-top: 30px;
+	padding-bottom: 150px
+}
+.cus-rate-index{
+	width: 25%;
+}.cus-rate-index .img img{
+	border-radius: 50px;
+	width: 35%
+}
+.cus-border{
+	border-right: 1px dotted gray;
+}
+.main .rate-index .info{
+	color: white
+}
+.rate .img-bread{
+	position: absolute;
+	top: 85%;
+	left: 42%;
+	display: none
+}
+
+
+/*css latest pro*/
+.main .latest-pro{
+	padding-top: 150px;
+	text-align: center;
+	padding-bottom: 80px
+}
+.main .latest-pro .title img{
+	width: 100%
+}
+.main .latest-pro .menu{
+	padding: 2% 0%
+}
+.main .latest-pro .menu ul li{
+	list-style: none;
+	display: inline-block;
+}
+.pr-info img{
+	display: none
+}
+.main .latest-pro .menu ul li a{
+	text-decoration: none;
+	padding: 0px 5px;
+	font-weight: bold;
+	font-size: 10px;
+	color: black;
+}
+.main .latest-pro .menu ul li a:hover{
+	color: #C8AA78;
+}
+.latest-pro{
+}
+.latest-pro .info{
+	text-align: left;
+}
+.latest-pro .info h3{
+	font-weight: bold;
+}
+.latest-pro .info span{
+	color: #C8AA78;
+	font-size: 20px;
+	font-weight: bold;
+	font-style: italic;
+}
+.pr-info{
+	padding-top: 20px;
+	background: #FFFCF7;
+	border-radius: 20px;
+}
+.borderbot{
+	border-bottom: 1px dotted #C8AA78;
+	padding-bottom: 10px
+}
+.pa{
+	padding: 20px 0px;
+}
+
+
+/*css register form*/
+.main .re-form{
+	/*position: relative;*/
+}
+.main .re-form img{
+	display: none
+}
+/*.main .re-form .form{
+	position: absolute;
+	top: 15%;
+	left: 20%;
+	background: white;
+	width: 60%
+}*/
+.main .re-form .form .form-re .text-mo{
+	text-align: center;
+}
+.main .re-form .form .form-re .text-mo h1{
+	font-weight: bold;
+}
+.main .re-form .form .form-re{
+	width: 100%
+}
+.main .re-form .form .title h1{
+	border-bottom: 1px double black
+}
+.form-re{
+	padding:30px;
+}
+.cus-re-form{
+	padding: 10px 0px
+}
+.cus-re-form2{
+	padding: 10px 0px
+}
+.cus-re-form2 input{
+	width: 90%;
+	padding: 10px
+}
+.cus-re-form input{
+	width: 100%;
+	padding: 10px
+}
+.cus-re-form select{
+	width: 100%;
+	padding:10px
+}
+.cus-re-form textarea{
+	width: 100%;
+	padding:10px
+}
+.t .date{
+	text-align: left;
+}
+.t .time{
+	text-align: right;
+}
+.re-form .btnorder .button{
+	padding: 13px;
+	width: 100%;
+	position: relative;
+	background: #C8AA78;
+	border-radius: 5px;
+	border:none;
+}
+.re-form .btnorder{
+	width: 90%
+}
+.re-form .btnorder .i{
+	position: absolute;
+	top: 9%;
+	left: 2%;
+	background: red;
+	padding: 8px;
+	width: 23%;
+	border-radius: 5px;
+	background: #FFFFFF
+}
+.re-form .btnorder .i i{
+	color: #C8AA78
+}
+.re-form .btnorder span{
+	color: white;
+	font-weight: bold;
+}
+.re-form .contact .phone{
+	padding: 13px
+}
+.re-form .contact .phone span{
+	font-weight: bold;
+}
+.width40{
+	width: 40%
+}
+.width60{
+	width: 60%
+}
+/*css blod*/
+
+.width50-res-contact{
+	width: 80%
+}
+.main .blog{
+	padding: 100px 0px;
+	text-align: center;
+}
+.main .blog .title img{
+	width: 100%
+}
+.main .blog .img img{
+	width: 100%
+}
+.main .blog .item{
+	padding-top: 20px;
+}
+.main .blog .item img{
+	-webkit-box-shadow: 10px 10px 21px 1px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 21px 1px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 21px 1px rgba(0,0,0,0.75);
+}
+/*.main .blog .item .form{
+	position: relative;
+/*}*/
+/*.main .blog .item .form .time{
+	background: #C8AA78;
+	width: 40%;
+	position: absolute;
+	bottom:0%;
+	left: 7%;
+	width: 40%
+}*/
+/*.main .blog .item .form .time h2{
+	font-weight: bold;
+	font-size: 20px;
+	color: white
+}*/
+.main .blog .item .text{
+	padding: 2% 10%
+}
+.main .blog .item .text h1{
+	font-weight: bold;
+	font-size: 15px
+}
+.main .blog .item .text p{
+	font-size: 10px
+}
+.width33-res{
+	width: 100%
+}
+.width25{
+	width: 25%;
+	padding-top: 100px;
+	padding-bottom: 100px
+}
+.width20{
+	width: 20%;
+}
+.width25o{
+	width: 25%;
+}
+.width70{
+	width: 70%
+}
+.width50{
+	width: 50%
+}
+.con-res{
+	width: 80%;
+	margin: 0 auto
+}
+.con-intro-res{
+	width: 90%;
+	margin: 0 auto;
+}
+.pro-menu{
+	display: none
+}
+.name-cat p{
+	font-weight: bold;
+	color: #C8AA78
+}
+.pro-menu-mo ui li{
+	padding: 10px 0px;
+}
+.angle-down{
+	text-align: right;
+}
+.angle-up{
+	text-align: right;
+}
+.display-none{
+	display: none
+}
+.cus-child-menu{
+	border-bottom: none
+}
+.item-down{
+	display: block;
+	animation-duration: 0.4s;
+    animation-delay: 0s;
+    animation-name: fadeInDown;
+    z-index: 1001
+}
+@media screen and (min-width: 768px) {
+.main .intro .img img{
+	width: 50%
+}
+.main .intro .sign img{
+	width: 50%
+}
+.intro2 .mid{
+	display: block;
+	width: 33%;
+}
+.intro2 .mid img{
+	width: 100%;
+}
+.intro2 .right-mo{
+	display: none
+}
+.intro2 .right{
+	display: block;
+	width: 33%;
+	padding-top: 60px
+}
+.intro2 .left{
+	width: 33%;
+	display: block;
+	padding-top: 60px
+}
+.container-res{
+	width: 100%;
+	margin: 0 auto
+}
+.main .sale{
+	/*background-image: url("../images/khung/Untitled-4.jpg");*/
+	position: relative;
+	padding-top: 0px
+}
+.main .sale img{
+	/*background-image: url("../images/khung/Untitled-4.jpg");*/
+	display: block
+}
+.main .sale .img-bg2 img{
+	 width: 100%;
+	-webkit-box-shadow: 9px 8px 18px -9px rgba(0,0,0,0.75);
+	-moz-box-shadow: 9px 8px 18px -9px rgba(0,0,0,0.75);
+	box-shadow: 9px 8px 18px -9px rgba(0,0,0,0.75);
+}
+.main .sale .sale-info{
+	width: 40%;
+	position: absolute;
+	top: 0%;
+	left: 52%;
+}
+.main .sale .sale-info h1{
+	font-weight: bold;
+	font-size: 25px
+}
+.main .sale .sale-info h2{
+	font-size: 20px
+}
+.main .sale .sale-info h3{
+	font-size: 15px
+}
+.main .sale .sale-info p{
+	text-transform: uppercase;
+	font-size: 8px;
+	letter-spacing: 5px;
+	padding-top: 0%
+
+}
+.main .sale .sale-info h4{
+	font-size: 10px;
+	opacity: 0.7;
+	letter-spacing: 1px;
+	padding-top: 0%
+}
+.same-sale-time input{
+	padding: 10px 20px;
+	width: 50%;
+	border-radius: 50px;
+	border: 1px solid #C8AA78;
+}
+.wid25-res{
+	width: 25%;
+	text-align: center;
+}
+.wid25-res .form .img input{
+	width: 101%;
+	padding: 40%;
+	border: 1px solid #C8AA78;
+	border-bottom: none
+}
+.wid25-res .form{
+	padding-right: 20px
+}
+.wid25-res .under{
+	padding-top: 20px;
+}
+.wid25-res .under-mo{
+	padding-top: 0px;
+}
+.wid25-res .form .name input{
+	border: 1px solid #C8AA78;
+	border-bottom: none;
+	border-top: none;
+	padding: 5%;
+	width: 101%;
+	background: #FFFCF7;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.wid25-res .form .price input{
+	border: 1px solid #C8AA78;
+	border-top: none;
+	padding: 5%;
+	width: 101%;
+	background: #FFFCF7;
+	text-align: center;
+	font-weight: bold;
+	color: #C8AA78
+}
+.main .new-pro .title img{
+	width: 40%
+	
+}
+.container2-res{
+	width: 70%;
+	margin: 0 auto
+}
+.main .rate .title .p{
+	padding: 0% 25%
+}
+.main .rate .rate-index p{
+	/*padding: 0% 25%*/
+	font-size: 20px
+}
+.main .rate h1{
+	font-weight: bold;
+	font-size: 40px
+}
+.rate .img-bread{
+	position: absolute;
+	top: 85%;
+	left: 42%;
+	display: block
+}
+.pr-info .img{
+	padding: 20px 0px
+}
+.pr-info .info{
+	padding-left: 10px
+}
+.pr-info img{
+	display: block;
+	width: 100%;
+	border-radius: 50px
+}
+.main .latest-pro .title img{
+	width: 50%
+}
+.re-form .btnorder{
+	width: 50%
+}
+.width50-res-contact{
+	width: 50%
+}
+.main .latest-pro .menu ul li a{
+	text-decoration: none;
+	padding: 0px 5px;
+	font-weight: bold;
+	font-size: 20px;
+	color: black;
+}
+.main .blog .title img{
+	width: 40%
+}
+.width33-res{
+	width: 33%
+}
+.main .blog .img{
+	padding-left: 10px;
+}
+}
+@media screen and (min-width: 1024px) {
+.con-intro-res{
+	width: 70%;
+	margin: 0 auto;
+}
+.con-res{
+	width: 100%;
+	margin: 0 auto
+}
+.main .re-form{
+	position: relative;
+}
+.main .form-re .text-mo{
+	display: none
+}
+.main .re-form img{
+	display: block
+}
+.main .re-form .form{
+	position: absolute;
+	top: 5%;
+	left: 20%;
+	background: white;
+	width: 60%;
+}
+.main .re-form .form .form-re .text-mo{
+	text-align: center;
+}
+.main .re-form .form .form-re .text-mo h1{
+	font-weight: bold;
+}
+.main .re-form .form .title{
+	width: 50%
+}
+.main .re-form .form .form-re{
+	width: 50%
+}
+.main .re-form .form .title h1{
+	border-bottom: 1px double black
+}
+.form-re{
+	padding:30px;
+}
+.cus-re-form{
+	padding: 5px 0px;
+}
+.cus-re-form2{
+	padding: 10px 0px
+}
+.cus-re-form2 input{
+	width: 90%;
+	padding: 5px;
+}
+.cus-re-form input{
+	width: 100%;
+	padding: 5px;
+}
+.cus-re-form select{
+	width: 100%;
+	padding: 5px;
+}
+.cus-re-form textarea{
+	width: 100%;
+	padding: 0px;
+}
+.t .date{
+	text-align: left;
+}
+.t .time{
+	text-align: right;
+}
+.re-form .btnorder .button{
+	padding: 13px;
+	width: 100%;
+	position: relative;
+	background: #C8AA78;
+	border-radius: 5px;
+	border:none;
+}
+.re-form .btnorder{
+	width: 60%
+}
+.re-form .btnorder .i{
+	position: absolute;
+	top: 9%;
+	left: 2%;
+	background: red;
+	padding: 8px;
+	width: 23%;
+	border-radius: 5px;
+	background: #FFFFFF
+}
+.re-form .btnorder .i i{
+	color: #C8AA78
+}
+.re-form .btnorder span{
+	color: white;
+	font-weight: bold;
+}
+.re-form .contact .phone{
+	padding: 13px
+}
+.re-form .contact .phone span{
+	font-weight: bold;
+}
+.main .blog .title img{
+	width: 30%
+}
+.main .blog .img img{
+	width: 70%
+}
+}
+@media screen and (min-width: 1285px) {
+	.main .new-pro .title img{
+	width: 30%
+}
+}
+@media screen and (min-width: 1440px) {
+.main .intro2 .right{
+	padding-top: 90px
+}
+.main .intro2 .left{
+	padding-top: 90px
+}
+.main .intro .img img{
+	width: 30%
+}
+.main .intro .sign img{
+	width: 30%
+}
+.main .sale .sale-info{
+	width: 30%;
+	position: absolute;
+	top: 13%;
+	left: 52%;
+}
+.same-sale-time input{
+	padding: 20px 20px;
+	width: 50%;
+	border-radius: 50px;
+	border: 1px solid #C8AA78;
+}
+.main .sale .sale-info h1{
+	font-weight: bold;
+	font-size: 30px
+}
+.main .sale .sale-info h2{
+	font-size: 25px
+}
+.main .sale .sale-info h3{
+	font-size: 20px
+}
+.main .sale .sale-info p{
+	text-transform: uppercase;
+	font-size: 10px;
+	letter-spacing: 5px;
+	padding-top: 0%
+
+}
+.main .sale .sale-info h4{
+	font-size: 13px;
+	opacity: 0.7;
+	letter-spacing: 1px;
+	padding-top: 0%
+}
+.main .re-form{
+	position: relative;
+}
+.main .form-re .text-mo{
+	display: none
+}
+.main .re-form img{
+	display: block
+}
+.main .re-form .form{
+	position: absolute;
+	top: 15%;
+	left: 20%;
+	background: white;
+	width: 60%;
+}
+.main .re-form .form .form-re .text-mo{
+	text-align: center;
+}
+.main .re-form .form .form-re .text-mo h1{
+	font-weight: bold;
+}
+.main .re-form .form .title{
+	width: 50%
+}
+.main .re-form .form .form-re{
+	width: 50%
+}
+.main .re-form .form .title h1{
+	border-bottom: 1px double black
+}
+.form-re{
+	padding:30px;
+}
+.cus-re-form{
+	padding: 5px 0px;
+}
+.cus-re-form2{
+	padding: 10px 0px
+}
+.cus-re-form2 input{
+	width: 90%;
+	padding: 10px;
+}
+.cus-re-form input{
+	width: 100%;
+	padding: 10px;
+}
+.cus-re-form select{
+	width: 100%;
+	padding: 10px;
+}
+.cus-re-form textarea{
+	width: 100%;
+	padding: 0px;
+}
+.t .date{
+	text-align: left;
+}
+.t .time{
+	text-align: right;
+}
+.re-form .btnorder .button{
+	padding: 13px;
+	width: 100%;
+	position: relative;
+	background: #C8AA78;
+	border-radius: 5px;
+	border:none;
+}
+.re-form .btnorder{
+	width: 50%
+}
+.re-form .btnorder .i{
+	position: absolute;
+	top: 9%;
+	left: 2%;
+	background: red;
+	padding: 8px;
+	width: 23%;
+	border-radius: 5px;
+	background: #FFFFFF
+}
+.re-form .btnorder .i i{
+	color: #C8AA78
+}
+.re-form .btnorder span{
+	color: white;
+	font-weight: bold;
+}
+.re-form .contact .phone{
+	padding: 13px
+}
+.re-form .contact .phone span{
+	font-weight: bold;
+}
+}
+@keyframes fadeInDown{
+0% {
+    opacity: 0;
+    transform: translate3d(0,-100%,0);
+}
+100% {
+    opacity: 1;
+    transform: none;
+}
+}
+@keyframes fadeInUp{
+0% {
+    opacity: 0;
+    transform: translate3d(0,100%,0);
+}
+100% {
+    opacity: 1;
+    transform: none;
+}

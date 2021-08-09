@@ -1,0 +1,320 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+.width15{
+	width: 15%
+}
+.main-product{
+	padding-top: 72px;
+	padding-bottom: 100px
+}
+.main-pro{
+	padding-top: 80px
+}
+
+/* css banner */
+
+.opacityimg{
+	background: black;
+	position: absolute;
+	width: 100%;
+	height: 100%
+}
+.main-product .banner{
+	position: relative;
+}
+.main-product .banner img{
+	opacity: 0.5
+}
+.main-product .content{
+	position: absolute;
+	left: 50%;
+	top: 30%;
+	transform: translate(-50%, -50%);
+}
+.main-product .content h1{
+	font-size: 20px;
+	color: white;
+	font-weight: bold
+
+}
+.main-product .banner p{
+	font-size: 10px;
+	color: white;
+}
+.main-product .banner .content p{
+	text-align: center
+}
+.main-product .contact{
+	position: absolute;
+	top: 93%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 100%;
+	border-top: 1px dotted gray;
+	padding: 10px 0px
+}
+.main-product .contact .icon{
+	text-align: center
+}
+.main-product .contact .text{
+	padding-top: 3px;
+	text-align: right
+}
+.main-product .contact .icon i{
+	font-size: 18px;
+	color: white
+}
+.left-pro{
+	display: none
+}
+.left-pro .cat{
+	padding: 40px 0px
+}
+.left-pro .search input{
+	padding: 8px;
+	width: 100%
+}
+.left-pro .search{
+	position: relative
+}
+.left-pro .search  .i{
+	position: absolute;
+	top: 50%;
+	right: 5%;
+	transform: translate(-05%, -50%)
+}
+.left-pro .search  .i a{
+	color: black
+}
+.container-pro-res{
+	width: 90%;
+	margin: 0 auto
+}
+.left-pro .title h3{
+	font-weight: bold;
+	border-bottom: 3px double #E6E3E0;
+	padding-bottom: 5px
+}
+.left-pro .item-pro-same{
+	border-bottom: 1px solid #E6E3E0;
+	padding: 5px 0px
+}
+.left-pro .item-pro-same .name{
+	text-align: left;
+	width: 80%
+}
+.left-pro .item-pro-same .quatity{
+	text-align: right;
+	width: 20%
+}
+.filter{
+	padding-bottom: 30px
+}
+.top-pro{
+	padding: 10px 0px 30px 0px 
+}
+.item-top-pro-same .img{
+	width: 20%
+}
+.item-top-pro-same .infor-pro{
+	width: 80%;
+	padding: 10px 0px 0px 40px
+}
+.item-top-pro-same .infor-pro .name p{
+	font-weight: bold;
+}
+.item-top-pro-same .infor-pro span{
+	width: 50%;
+	font-weight: bold;
+	color: #C8AA78
+}
+.item-top-pro-same .infor-pro .price p{
+	width: 50%;
+	text-decoration: line-through;
+}
+.item-top-pro-same .img img{
+	width: 70px;
+	height: 70px;
+	border-radius: 50%
+}
+.item-top-pro-same{
+	padding: 10px 0px
+}
+.right-pro{
+	padding-left: 20px
+}
+.right-pro .title p{
+ 	font-weight: bold;
+}
+.right-pro .l-title{
+	width: 100%
+}
+.right-pro .sort-by{
+	width: 70%;
+}
+.right-pro .sort-by p{
+	padding-top: 6px
+}
+.right-pro .show-way{
+	width: 23%;
+}
+.right-pro .show-way button{
+	padding: 5px;
+}
+.right-pro .sort select{
+	padding: 7px;
+}
+.pad{
+	padding: 0px 1px
+}
+.item-product{
+	padding: 40px 0px;
+	text-align: center;
+}
+.item-product .item-product-cus{
+	width: 50%;
+	padding: 20px
+}
+.item-product .item-product-cus img{
+	border: 1px solid #C8AA78;
+	border-bottom: none
+}
+.item-product .item-product-cus .in{
+	border: 1px solid #C8AA78;
+	border-top: none
+}
+.item-product .item-product-cus .in{
+	background: #FFFCF7
+}
+.item-product .item-product-cus .in .name{
+	padding-top: 15px;
+}
+.item-product .item-product-cus .in .price{
+	padding-bottom: 15px;
+}
+.item-product .item-product-cus .in .name p{
+	font-weight: bold;
+	font-size: 20px
+}
+.item-product .item-product-cus .in .price span{
+	font-weight: bold;
+	color: #C8AA78;
+	font-size: 20px
+}
+.page{
+	width: 100%
+}
+.btn button{
+	padding: 5px 10px;
+	background: white;
+	border: none;
+	border: 0.5px solid gray;
+	border-radius: 2px;
+}
+.js-btn button{
+	background: #C8AA78
+}
+/*css main*/
+@media screen and (min-width: 768px) {
+.right-pro .sort-by{
+	width: 50%;
+}
+.right-pro .show-way{
+	width: 50%;
+}
+.pad{
+	padding: 0px 5px
+}
+.main-product .content h1{
+	font-size: 30px;
+	color: white;
+	font-weight: bold
+
+}
+.main-product .banner p{
+	font-size: 15px;
+	color: white;
+}
+.main-product .contact .icon i{
+	font-size: 28px;
+	color: white
+}
+.left-pro{
+	display: block;
+	width: 30%
+}
+.right-pro{
+	width: 70%
+}
+}
+@media screen and (min-width: 1024px){
+.right-pro .l-title{
+	width: 56%
+}
+.right-pro .sort-by{
+	width: 31%;
+}
+.right-pro .show-way{
+	width: 13%;
+}
+}
+@media screen and (min-width: 1440px) {
+.main_about .content h1{
+	font-size: 40px;
+	color: white;
+	font-weight: bold
+
+}
+.main_about .banner p{
+	font-size: 20px;
+	color: white;
+}
+.main_about .contact .icon i{
+	font-size: 38px;
+	color: white
+}
+.main_about .main-about-us .intr-about-us{
+	width: 50%
+}
+.main_about .main-about-us .intr-about-us h2{
+	font-size: 30px
+}
+.main_about .main-about-us .intr-about-us .p1{
+	font-size: 15px;
+	text-transform: uppercase;
+}
+.main_about .main-about-us .intr-about-us .p2{
+	font-size: 20px;
+	font-style: italic;
+}
+.main_about .main-about-us .intr-about-us .p3{
+	font-size: 17px;
+	
+}
+.main_about .main-about-us .intr-about-us span{
+	color: #C8AA78;
+	font-weight: bold;
+	font-size: 16px
+}
+.main_about .main-about-us .intr-about-us .sign .fullname{
+	text-align: center;
+	width: 50%;
+	padding-top: 3%
+}
+.main_about .main-about-us .intr-about-us .sign img{
+	width: 50%
+}
+.left-pro{
+	width: 20%
+}
+.right-pro{
+	width: 80%
+}
+.item-product .item-product-cus{
+	width: 33%;
+	padding: 10px
+}
+}

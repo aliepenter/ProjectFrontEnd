@@ -1,0 +1,210 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box
+}
+.main-cart{
+	padding-top: 72px;
+}
+.main-cart .banner img{
+}
+.opacityimg{
+	background: black;
+	position: absolute;
+	width: 100%;
+	height: 100%
+}
+.main-cart .banner{
+	position: relative;
+}
+.main-cart .banner img{
+	opacity: 0.5
+}
+.main-cart .content{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+.main-cart .content h1{
+	font-size: 20px;
+	color: white;
+	font-weight: bold
+
+}
+.main-cart .banner p{
+	font-size: 10px;
+	color: white;
+}
+.main-cart .banner .content p{
+	text-align: center
+}
+.container-cart-res{
+	width: 90%;
+	margin: 0 auto;
+}
+.cus-order-pc{
+	display: none
+}
+.main-cart-page .cus-order-mo .h2{
+	text-align: center;
+}
+.main-cart-page h2{
+	font-weight: bold;
+}
+.main-cart-page  .item{
+	border-bottom: 1px solid gray;
+	padding-bottom: 10px
+}
+.main-cart-page  .item img{
+	width: 100%;
+	border-radius: 50%
+}
+.main-cart-page  .item .img{
+	width: 20%;
+	padding-right: 10px
+}
+.main-cart-page  .item .name{
+	width: 70%
+}
+.main-cart-page .item .name .p p{
+	font-weight: bold;
+}
+.main-cart-page .item .name .p{
+	width: 100%;
+	padding-top: 15px
+}
+.main-cart-page  .item .name .price p{
+	font-weight: bold;
+	color: #C8AA78;
+	padding-right: 15px
+}
+.main-cart-page  .item .name .price span{
+	text-decoration: line-through;
+}
+.main-cart-page  .item .quantity{
+	width: 10%;
+	padding-top: 20px
+}
+.grand-total{
+	padding-top: 20px
+}
+.t-right span{
+	font-weight: bold;
+	color: #C8AA78;
+}
+.t-right {
+	text-align: left;
+	width: 50%
+}
+.t-right h3{
+	font-weight: bold;
+
+}
+.t-left{
+	text-align: right;
+	width: 50%
+}
+.t-left h3{
+	font-weight: bold;
+	color: #C8AA78;
+}
+.coupon input{
+	padding: 10px;
+	/*border-color: #985D39;*/
+	border: none;
+	width: 100%
+}
+.qus i{
+	color: #C8AA78
+}
+.billing-detail{
+	width: 100%
+}
+.billing-detail input{
+	width: 100%;
+	padding: 5px 0px;
+	opacity: 0.3
+}
+.billing-detail .ship input{
+	width: 20%;
+
+}
+.billing-detail .ship{
+	padding: 10px 0px
+}
+.billing-detail select{
+	width: 100%;
+	padding: 7px 0px;
+	opacity: 0.3
+}
+.billing-detail button{
+	width: 100%;
+	padding: 7px 0px;
+	border: none;
+	background: #C8AA78;
+	border-radius: 5px
+}
+.billing-detail textarea{
+	width: 100%;
+	padding: 5px 0px;
+	opacity: 0.3
+}
+.pad{
+	padding: 10px 0px
+}
+.main-cart-page{
+	padding-top: 50px
+}
+.wid100{
+	width: 100%;
+}
+.wid50-res-form{
+	width: 100%;
+}
+.wid50-res-form-l{
+	padding-left: 0px
+}
+.wid50-res-form-r{
+	padding-right: 0px
+}
+@media screen and (min-width: 768px) {
+	.wid50-res-form-l{
+	padding-left: 5px
+}
+.wid50-res-form-r{
+	padding-right: 5px
+}
+.main-cart .content h1{
+	font-size: 30px;
+	color: white;
+	font-weight: bold
+
+}
+.main-cart .banner p{
+	font-size: 14px;
+	color: white;
+}
+.container-cart-res{
+	width: 80%;
+	margin: 0 auto;
+}
+.cus-order-mo{
+	display: none
+}
+.cus-order-pc{
+	display: block;
+	width: 50%;
+	padding-left: 10px
+}
+.billing-detail{
+	width: 50%;
+	border-right: 1px solid #FBEEE4;
+	padding-right: 10px
+}
+.wid50-res-form{
+	width: 50%
+}
+}
+@media screen and (min-width: 1440px) {
+}

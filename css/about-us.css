@@ -1,0 +1,399 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+.width15{
+	width: 15%
+}
+.main_about{
+	padding-top: 72px
+}
+
+/* css banner */
+
+.opacityimg{
+	background: black;
+	position: absolute;
+	width: 100%;
+	height: 100%
+}
+.main_about .banner{
+	position: relative;
+}
+.main_about .banner img{
+	opacity: 0.5
+}
+.main_about .content{
+	position: absolute;
+	left: 50%;
+	top: 30%;
+	transform: translate(-50%, -50%);
+}
+.main_about .content h1{
+	font-size: 20px;
+	color: white;
+	font-weight: bold
+
+}
+.main_about .banner p{
+	font-size: 10px;
+	color: white;
+}
+.main_about .banner .content p{
+	text-align: center
+}
+.main_about .contact{
+	position: absolute;
+	top: 93%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 100%;
+	border-top: 1px dotted gray;
+	padding: 10px 0px
+}
+.main_about .contact .icon{
+	text-align: center
+}
+.main_about .contact .text{
+	padding-top: 3px;
+	text-align: right
+}
+.main_about .contact .icon i{
+	font-size: 18px;
+	color: white
+}
+
+/*css main*/
+.container60{
+	width: 60%;
+	margin: 0 auto;
+}
+.main-about-us{
+	padding-top: 60px;
+	overflow: hidden;
+}
+.main-about-us .img{
+	display: none
+}
+.main_about .main-about-us .intr-about-us{
+	width: 100%
+}
+.main_about .main-about-us .intr-about-us h2{
+	font-size: 20px
+}
+.main_about .main-about-us .intr-about-us .p1{
+	font-size: 10px;
+	text-transform: uppercase;
+}
+.main_about .main-about-us .intr-about-us .p2{
+	font-size: 15px;
+	font-style: italic;
+}
+.main_about .main-about-us .intr-about-us .p3{
+	font-size: 12px;
+	
+}
+.main_about .main-about-us .intr-about-us span{
+	color: #C8AA78;
+	font-weight: bold;
+	font-size: 16px
+}
+.main_about .main-about-us .intr-about-us .sign .fullname{
+	text-align: center;
+}
+.main_about .main-about-us .intr-about-us .sign img{
+	width: 100%
+}
+.why-choose-us{
+	padding-top: 50px;
+	background: #FFFDF8;
+}
+.why-choose-us .img{
+	width: 100%;
+	text-align: center;
+}
+.why-choose-us .img img{
+	width: 100%;
+}
+.why-choose-us .icon{
+	width: 20%;
+}
+.why-choose-us .name{
+	width: 80%;
+	padding-left: 10px
+}
+.why-choose-us .name h3{
+	font-size: 20px;
+	font-weight: bold;
+}
+.why-choose-us .name p{
+	font-size: 10px
+}
+.why-choose-us .icon img{
+	width: 80%;
+	padding-top: 20px
+}
+.pc-item{
+	display: none
+}
+.why-choose-us .mid-img{
+	display: none
+}
+.meet{
+	padding-top: 100px
+}
+.meet .meet-chef{
+	text-align: center;
+}
+.meet .meet-chef h1{
+	font-weight: bold;
+	font-size: 27px
+}
+.meet .chef-list .chef1{
+	padding-top: 20px
+}
+.meet .chef-list .chef2{
+	padding-top: 20px
+}
+.meet .chef-list .chef3{
+	padding-top: 20px
+}
+.meet .meet-chef p{
+	font-size: 10px;
+	text-transform: uppercase;
+}
+.meet .chef-list .img{
+	width: 30%;
+}
+.meet .chef-list .name span{
+	color: black;
+	font-weight: bold;
+}
+.meet .chef-list .name span:hover{
+	color: #C8AA78;
+}
+.meet .chef-list .name p{
+	font-size: 10px;
+	border-bottom: 1px dotted gray;
+	padding: 5px
+}
+.meet .chef-list .img img{
+	width: 70px;
+	height: 70px;
+	border-radius: 50%
+}
+.meet .chef-list .infor{
+	width: 70%;
+	padding-left: 20px
+}
+.meet .chef-list .infor .contact-chef i{
+	color: #C8AA78;
+	padding: 3px;
+}
+.brand-logo{
+	text-align: center;
+}
+.brand-logo img{
+	width: 50%;
+	padding: 20px 0px
+}
+.width-res{
+	width: 33%
+}
+/*res*/
+@media screen and (min-width: 600px) {
+.why-choose-us .img img{
+	width: 60%;
+}
+}
+@media screen and (min-width: 768px) {
+.main_about .content h1{
+	font-size: 30px;
+	color: white;
+	font-weight: bold
+
+}
+.main_about .banner p{
+	font-size: 15px;
+	color: white;
+}
+.main_about .contact .icon i{
+	font-size: 28px;
+	color: white
+}
+/*css-res-main*/
+.main-about-us .img{
+	display: block;
+	width: 50%
+}
+.main_about .main-about-us .intr-about-us{
+	width: 50%
+}
+.main_about .main-about-us .intr-about-us h2{
+	font-size: 30px
+}
+.why-choose-us .left{
+	width: 35%
+}
+.why-choose-us .mid-img{
+	width: 30%;
+	display: block;
+}
+.why-choose-us .right{
+	width: 35%
+}
+.why-choose-us .img img{
+	width: 30%;
+}
+.why-choose-us .name{
+	width: 80%;
+	padding-left: 10px
+}
+.why-choose-us .name h3{
+	font-size: 25px;
+	font-weight: bold;
+}
+.why-choose-us .name p{
+	font-size: 13px
+}
+.why-choose-us .icon img{
+	width: 60%;
+	padding-top: 20px
+}
+.why-choose-us .i2{
+	padding-top: 40px
+}
+.why-choose-us .i4{
+	padding-top: 40px
+}
+.why-choose-us .pc-item{
+	text-align: right;
+	padding-right: 10px
+}
+.pc-item{
+	display: block;
+}
+.mo-item{
+	display: none;
+}
+.meet .chef-list .img img{
+	width: 100px;
+	height: 100px;
+}
+.meet .meet-chef h1{
+	font-weight: bold;
+	font-size: 37px
+}
+.meet .chef-list .chef1{
+	padding-top: 20px;
+	width: 33%
+}
+.meet .chef-list .chef2{
+	padding-top: 20px;
+	width: 33%
+}
+.meet .chef-list .chef3{
+	padding-top: 20px;
+	width: 33%
+}
+.meet .meet-chef p{
+	font-size: 13px;
+	text-transform: uppercase;
+}
+.meet .chef-list .img{
+	width: 100%;
+	padding: 0 20px;
+	padding-bottom: 20px;
+	text-align: center;
+}
+.meet .chef-list .infor{
+	width: 100%;
+	padding-left: 20px;
+	text-align: center;
+}
+.meet .chef-list .infor .contact-chef .icon .fb{
+	width: 33%;
+	text-align: right;
+}
+.meet .chef-list .infor .contact-chef .icon .gmail{
+	width: 33%;
+	text-align: center;
+}
+.meet .chef-list .infor .contact-chef .icon .twitter{
+	width: 33%;
+	text-align: left;
+}
+.meet .chef-list .infor .contact-chef .icon i{
+	font-size: 30px
+}
+.meet .chef-list .name span{
+	font-size: 20px;
+
+}
+.meet .chef-list .name p{
+	font-size: 10px;
+
+}
+.meet .chef-list .name a{
+	text-decoration: none
+	
+}
+.brand-logo{
+	padding-top: 70px
+}
+.brand-logo img{
+	width: 50%;
+	padding: 20px 0px
+}
+.width-res{
+	width: 16.6666666666%
+}
+}
+@media screen and (min-width: 1440px) {
+.main_about .content h1{
+	font-size: 40px;
+	color: white;
+	font-weight: bold
+
+}
+.main_about .banner p{
+	font-size: 20px;
+	color: white;
+}
+.main_about .contact .icon i{
+	font-size: 38px;
+	color: white
+}
+.main_about .main-about-us .intr-about-us{
+	width: 50%
+}
+.main_about .main-about-us .intr-about-us h2{
+	font-size: 30px
+}
+.main_about .main-about-us .intr-about-us .p1{
+	font-size: 15px;
+	text-transform: uppercase;
+}
+.main_about .main-about-us .intr-about-us .p2{
+	font-size: 20px;
+	font-style: italic;
+}
+.main_about .main-about-us .intr-about-us .p3{
+	font-size: 17px;
+	
+}
+.main_about .main-about-us .intr-about-us span{
+	color: #C8AA78;
+	font-weight: bold;
+	font-size: 16px
+}
+.main_about .main-about-us .intr-about-us .sign .fullname{
+	text-align: center;
+	width: 50%;
+	padding-top: 3%
+}
+.main_about .main-about-us .intr-about-us .sign img{
+	width: 50%
+}
+}

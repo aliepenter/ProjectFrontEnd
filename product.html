@@ -1,0 +1,1227 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="initial-scale=1, width=device-width, maximum-scale=1, minimum-scale=1, user-scalable=no">
+	<title></title>
+	<link rel="stylesheet" href="css/product.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/header.css">
+	<link rel="stylesheet" href="css/footer.css">
+	<link rel="stylesheet" href="css/hai/haistyle.css">
+	<link rel="stylesheet" href="css/long/longstyle.css">
+	<link rel="stylesheet" media="screen" href="css/bootstrap.css">
+	<link rel="stylesheet" href="fontawesome-free-5.11.2-web/css/all.min.css">
+	<link rel=”stylesheet” href=”https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css”>
+	<link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="header">
+		<div class="container flex header-pc" id="header">
+			<div class="bars">
+				<i class="fas fa-bars" id="menuBar" onclick="check()"></i>
+			</div>
+			<div class="logo">
+				<a href="index.html" title="">
+					<img src="images/logo/logo3.png" alt="">
+				</a>
+			</div>
+			<div class="menu" id="">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="">Product</a></li>
+					<li><a href="">Gallery</a></li>
+					<li><a href="">Blog</a></li>
+					<li><a href="">Contact</a></li>
+				</ul>
+			</div>
+			<div class="right flex">
+				<div class="search width33">
+					<form>
+						<a href="" title="">
+							<i class="fa fa-search" aria-hidden="true"></i>
+						</a>
+					</form>
+				</div>
+				<div class="cart width33">
+					<div class="icon-cart">
+						<a href="" title="">
+							<i class="fa fa-shopping-cart" aria-hidden="true"></i>
+						</a>
+					</div>
+					<div class="info-cart">
+					
+					</div>
+				</div>
+				<div class="acc width33">
+					<a href="" title="">
+						<i class="fa fa-user" aria-hidden="true"></i>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="menu-mobile" id="menu-ac">
+		<div class="container2">
+			<div class="logo-mo-menu">
+				<a href="index.html" title="">
+					<img src="images/logo/logo3.jpg" alt="" width="100px">
+				</a>
+			</div>
+			<div class="mobile-icon-contact flex">
+				<div class="search width33">
+					<form>
+						<a href="" title="">
+							<i class="fa fa-search" aria-hidden="true"></i>
+						</a>
+					</form>
+				</div>
+				<div class="cart width33">
+					<div class="icon-cart">
+						<a href="cart.html" title="">
+							<i class="fa fa-shopping-cart" aria-hidden="true"></i>
+						</a>
+					</div>
+					<div class="info-cart">
+					
+					</div>
+				</div>
+				<div class="acc width33">
+					<a href="login.html" title="">
+						<i class="fa fa-user" aria-hidden="true"></i>
+					</a>
+				</div>
+			</div>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="about.html">About</a></li>
+			<li>
+				<div class="pro-me flex">
+					<div class="x width50">	
+						<a href="product.html">Product</a>
+					</div>
+					<div class="angle-down width50" id="a-down1">	
+						<i class="fa fa-angle-down" aria-hidden="true" onclick="show1()"></i>
+					</div>
+					<div class="angle-up width50 display-none" id="a-up1">	
+						<i class="fa fa-angle-up" aria-hidden="true" onclick="hide1()"></i>
+					</div>
+				</div>
+				<div class="pro-menu-mo display-none" id="cat-item1">
+					<ul>
+						<li style="padding: 10px 0px">
+							<div class="name-cat flex">
+								<p class="width50">Bread</p>
+								<div class="angle-down width50" id="a-down2">
+									<i class="fa fa-angle-down" aria-hidden="true" onclick="show2()"></i>
+								</div>
+								<div class="angle-up width50 display-none" id="a-up2">	
+									<i class="fa fa-angle-up" aria-hidden="true" onclick="hide2()"></i>
+								</div>
+							</div>
+							<div class="cat-item display-none" id="cat-item2">	
+								<ul>
+									<li style="padding: 10px 0px;font-style: italic;"><a href="">Chiffon cake</a></li>
+									<li style="padding: 10px 0px;font-style: italic;"><a href="">Cookie</a></li>
+									<li style="padding: 10px 0px;font-style: italic;"><a href="">Croissant</a></li>
+									<li style="border-bottom: none; padding: 10px 0px;font-style: italic;"><a href="">Dread stick</a></li>
+								</ul>
+							</div>
+						</li>
+						<li style="padding: 10px 0px">
+							<div class="name-cat flex">
+								<p class="width50">Cake</p>
+								<div class="angle-down width50" id="a-down3">	
+									<i class="fa fa-angle-down" aria-hidden="true"onclick="show3()"></i>
+								</div>
+								<div class="angle-up width50 display-none" id="a-up3">	
+									<i class="fa fa-angle-up" aria-hidden="true" onclick="hide3()"></i>
+								</div>
+							</div>
+							<div class="cat-item display-none" id="cat-item3">	
+								<ul>
+									<li style="padding: 10px 0px;font-style: italic;"><a href="">Coffee cake</a></li>
+									<li style="padding: 10px 0px;font-style: italic;"><a href="">Chiffon cake</a></li>
+									<li style="padding: 10px 0px;font-style: italic;"><a href="">CupCake</a></li>
+									<li style="border-bottom: none; padding: 10px 0px;font-style: italic;"><a href="">Pound cake</a></li>
+								</ul>
+							</div>
+						</li>
+						<li style="padding: 10px 0px">
+							<div class="name-cat flex">
+								<p class="width50">Chocolate cake</p>
+								<div class="angle-down width50" id="a-down4">	
+									<i class="fa fa-angle-down" aria-hidden="true" onclick="show4()"></i>
+								</div>
+								<div class="angle-up width50 display-none" id="a-up4">	
+									<i class="fa fa-angle-up" aria-hidden="true" onclick="hide4()"></i>
+								</div>
+							</div>
+							<div class="cat-item display-none" id="cat-item4">	
+								<ul>
+									<li style="padding: 10px 0px"><a href="">Vietnamese savery pancake</a></li>
+									<li style="padding: 10px 0px"><a href="">Korena cake</a></li>
+									<li style="padding: 10px 0px"><a href="">Muffin</a></li>
+									<li style="border-bottom: none; padding: 10px 0px"><a href="">Rice rall</a></li>
+								</ul>
+							</div>
+						</li>
+						<li style="padding: 10px 0px">
+							<div class="name-cat flex">
+								<p class="width50">Kitchen tool</p>
+								<div class="angle-down width50" id="a-down5">	
+									<i class="fa fa-angle-down" aria-hidden="true" onclick="show5()"></i>
+								</div>
+								<div class="angle-up width50 display-none" id="a-up5">	
+									<i class="fa fa-angle-up" aria-hidden="true" onclick="hide5()"></i>
+								</div>
+							</div>
+							<div class="cat-item display-none" id="cat-item5">	
+								<ul>
+									<li style="padding: 10px 0px"><a href="">Toaster</a></li>
+									<li style="padding: 10px 0px"><a href="">Garlic</a></li>
+									<li style="padding: 10px 0px"><a href="">Broller</a></li>
+									<li style="border-bottom: none; padding: 10px 0px"><a href="">Over glaves</a></li>
+								</ul>
+							</div>
+						</li>
+						
+					</ul>
+				</div>		
+			</li>
+			<li><a href="gallery.html">Gallery</a></li>
+			<li><a href="blog.html">Blog</a></li>
+			<li><a href="contact.html">Contact</a></li>
+		</ul>
+	</div>
+	</div>
+	<div class="main-product">
+		<div class="banner">
+			<div class="opacityimg">
+				
+			</div>
+			<img src="images/about images/Barley_isak-engstrom.jpg" alt="" width="100%">
+			<div class="content">
+				<h1>Product</h1>
+				<p>Home \\ Product</p>
+			</div>
+			<div class="contact flex">
+				<div class="text width50">
+					<p>Share this page: </p>
+				</div>
+				<div class="icon width50 flex">
+					<div class="fb width15">
+						<a href="" title="">
+							<i class="fab fa-facebook"></i>
+						</a>
+					</div>
+					<div class="gmail width15">
+						<a href="">
+							<i class="fab fa-google-plus" aria-hidden="true"></i>
+						</a>
+					</div>
+					<div class="twitter width15">
+						<a href="" title="">
+							<i class="fab fa-twitter"></i>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="main-pro">
+			<div class="container-pro-res flex">
+				<div class="left-pro">
+					<div class="search">
+						<div class="form">
+							<form>
+								<input type="text" name="" value="" placeholder="Search..." style="opacity: 0.5">
+							</form>
+							<div class="i">
+								<a href=""><i class="fa fa-search" aria-hidden="true"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="cat">
+						<div class="title">
+							<h3>Categories</h3>
+						</div>
+						<div class="item-pro">
+							<div class="item-pro-1 item-pro-same flex">
+								<div class="name">
+									<p>Marble cake</p>
+								</div>
+								<div class="quatity">
+									<p>102</p>
+								</div>
+							</div>
+							<div class="item-pro-2 item-pro-same flex">
+								<div class="name">
+									<p>Spiced carrot cake</p>
+								</div>
+								<div class="quatity">
+									<p>50</p>
+								</div>
+							</div>
+							<div class="item-pro-3 item-pro-same flex">
+								<div class="name">
+									<p>Plum cake</p>
+								</div>
+								<div class="quatity">
+									<p>29</p>
+								</div>
+							</div>
+							<div class="item-pro-4 item-pro-same flex">
+								<div class="name">
+									<p>Chocolate pudding cake</p>
+								</div>
+								<div class="quatity">
+									<p>38</p>
+								</div>
+							</div>
+							<div class="item-pro-5 item-pro-same flex">
+								<div class="name">
+									<p>Egg</p>
+								</div>
+								<div class="quatity">
+									<p>95</p>
+								</div>
+							</div>
+							<div class="item-pro-6 item-pro-same flex">
+								<div class="name">
+									<p>Lemon ginger bundt cake</p>
+								</div>
+								<div class="quatity">
+									<p>78</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="filter">
+						<div class="title">
+							<h3>Filter by price</h3>
+						</div>
+						<div class="wrapper">
+							<fieldset class="filter-price">
+							    <div class="price-field">
+							        <input type="range" min="100" max="500" value="135" id="lower">
+							        <input type="range" min="100" max="500" value="500" id="upper">
+							    </div>
+							    <div class="flex">
+								    <div class="bt">
+								    	<button type="submit">Filter</button>
+								    </div>
+								    <div class="price-wrap">
+								     	<div class="price-container">
+								        	<div class="price-wrap-1">
+									         	<label for="one">$</label>
+									         	<input id="one">
+								       		</div>
+									        <div class="price-wrap_line">-</div>
+									        <div class="price-wrap-2">
+									          	<label for="two">$</label>
+									          	<input id="two">
+									        </div>
+								      	</div>
+								    </div>
+								</div>
+							</fieldset>
+						</div>
+					</div>
+					<div class="top-pro">
+						<div class="title">
+							<h3>Top product</h3>
+						</div>
+						<div class="item-top-pro">
+							<div class="item-top-pro1 item-top-pro-same flex">
+								<div class="img">
+									<img src="images/cake/20277-strawberry-ombre-cake-760x580 (1).jpg" alt="">
+								</div>
+								<div class="infor-pro">
+									<div class="name">
+										<p>Spiced carrot cake</p>
+									</div>
+									<div class="price flex">
+										<span>$5.00</span>
+										<p>$10.00</p>
+									</div>
+								</div>
+							</div>
+							<div class="item-top-pro2 item-top-pro-same flex">
+								<div class="img">
+									<img src="images/cake/20277-strawberry-ombre-cake-760x580 (1).jpg" alt="">
+								</div>
+								<div class="infor-pro">
+									<div class="name">
+										<p>Oatmeal muffins</p>
+									</div>
+									<div class="price flex">
+										<span>$5.00</span>
+										<p>$10.00</p>
+									</div>
+								</div>
+							</div>
+							<div class="item-top-pro3 item-top-pro-same flex">
+								<div class="img">
+									<img src="images/cake/20277-strawberry-ombre-cake-760x580 (1).jpg" alt="">
+								</div>
+								<div class="infor-pro">
+									<div class="name">
+										<p>Bread stick</p>
+									</div>
+									<div class="price flex">
+										<span>$5.00</span>
+										<p>$10.00</p>
+									</div>
+								</div>
+							</div>
+							<div class="item-top-pro4 item-top-pro-same flex">
+								<div class="img">
+									<img src="images/cake/20277-strawberry-ombre-cake-760x580 (1).jpg" alt="">
+								</div>
+								<div class="infor-pro">
+									<div class="name">
+										<p>Whole grain bread</p>
+									</div>
+									<div class="price flex">
+										<span>$5.00</span>
+										<p>$10.00</p>
+									</div>
+								</div>
+							</div>
+							<div class="item-top-pro5 item-top-pro-same flex">
+								<div class="img">
+									<img src="images/cake/20277-strawberry-ombre-cake-760x580 (1).jpg" alt="">
+								</div>
+								<div class="infor-pro">
+									<div class="name">
+										<p>French bread</p>
+									</div>
+									<div class="price flex">
+										<span>$5.00</span>
+										<p>$10.00</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="tag">
+						<div class="title">
+							<h3>Tags</h3>
+						</div>
+					</div>
+				</div>
+				<div class="right-pro">
+					<div class="title flex">
+						<div class="l-title">
+							<p>Showing 1-12 of 24 results</p>
+						</div>
+						<div class="sort-by">
+							<div class="flex">
+								<div class="p">
+									<p>Sort by: </p>
+								</div>
+								<div class="sort pad">
+									<select name="">
+										<option value="">Default sorting</option>
+										<option value="">Price</option>
+										<option value="">Name</option>
+									</select>
+								</div>
+							</div>
+						</div>
+						<div class="show-way flex">
+							<div class="way-1 pad">
+								<button type=""><i class="fa fa-list" aria-hidden="true"></i></button>
+							</div>
+							<div class="way-2 pad">
+								<button type=""><i class="fa fa-th" aria-hidden="true"></i></button>
+							</div>
+						</div>
+					</div>
+					<div class="" id="itemPro1">
+						<div class="item-product flex" id="" style="">
+						<div class="item-product-cus">
+							<div class="img">
+								<img src="images/cake/delish-191015-turkey-cake-0184-landscape-pf-1572472343.jpg" alt="" width="100%">
+							</div>
+							<div class="in">
+								<div class="name">
+									<p>Oatmeal muffins</p>
+								</div>
+								<div class="price">
+									<span>$7.00</span>
+								</div>
+							</div>
+						</div>
+						<div class="item-product-cus">
+							<div class="img">
+								<img src="images/cake/delish-191015-turkey-cake-0184-landscape-pf-1572472343.jpg" alt="" width="100%">
+							</div>
+							<div class="in">
+								<div class="name">
+									<p>Oatmeal muffins</p>
+								</div>
+								<div class="price">
+									<span>$7.00</span>
+								</div>
+							</div>
+						</div>
+						<div class="item-product-cus">
+							<div class="img">
+								<img src="images/cake/delish-191015-turkey-cake-0184-landscape-pf-1572472343.jpg" alt="" width="100%">
+							</div>
+							<div class="in">
+								<div class="name">
+									<p>Oatmeal muffins</p>
+								</div>
+								<div class="price">
+									<span>$7.00</span>
+								</div>
+							</div>
+						</div>
+						<div class="item-product-cus">
+							<div class="img">
+								<img src="images/cake/delish-191015-turkey-cake-0184-landscape-pf-1572472343.jpg" alt="" width="100%">
+							</div>
+							<div class="in">
+								<div class="name">
+									<p>Oatmeal muffins</p>
+								</div>
+								<div class="price">
+									<span>$7.00</span>
+								</div>
+							</div>
+						</div>
+						<div class="item-product-cus">
+							<div class="img">
+								<img src="images/cake/delish-191015-turkey-cake-0184-landscape-pf-1572472343.jpg" alt="" width="100%">
+							</div>
+							<div class="in">
+								<div class="name">
+									<p>Oatmeal muffins</p>
+								</div>
+								<div class="price">
+									<span>$7.00</span>
+								</div>
+							</div>
+						</div>
+						<div class="item-product-cus">
+							<div class="img">
+								<img src="images/cake/delish-191015-turkey-cake-0184-landscape-pf-1572472343.jpg" alt="" width="100%">
+							</div>
+							<div class="in">
+								<div class="name">
+									<p>Oatmeal muffins</p>
+								</div>
+								<div class="price">
+									<span>$7.00</span>
+								</div>
+							</div>
+						</div>
+						<div class="item-product-cus">
+							<div class="img">
+								<img src="images/cake/delish-191015-turkey-cake-0184-landscape-pf-1572472343.jpg" alt="" width="100%">
+							</div>
+							<div class="in">
+								<div class="name">
+									<p>Oatmeal muffins</p>
+								</div>
+								<div class="price">
+									<span>$7.00</span>
+								</div>
+							</div>
+						</div>
+						<div class="item-product-cus">
+							<div class="img">
+								<img src="images/cake/delish-191015-turkey-cake-0184-landscape-pf-1572472343.jpg" alt="" width="100%">
+							</div>
+							<div class="in">
+								<div class="name">
+									<p>Oatmeal muffins</p>
+								</div>
+								<div class="price">
+									<span>$7.00</span>
+								</div>
+							</div>
+						</div>
+						<div class="item-product-cus">
+							<div class="img">
+								<img src="images/cake/delish-191015-turkey-cake-0184-landscape-pf-1572472343.jpg" alt="" width="100%">
+							</div>
+							<div class="in">
+								<div class="name">
+									<p>Oatmeal muffins</p>
+								</div>
+								<div class="price">
+									<span>$7.00</span>
+								</div>
+							</div>
+						</div>
+						<div class="item-product-cus">
+							<div class="img">
+								<img src="images/cake/delish-191015-turkey-cake-0184-landscape-pf-1572472343.jpg" alt="" width="100%">
+							</div>
+							<div class="in">
+								<div class="name">
+									<p>Oatmeal muffins</p>
+								</div>
+								<div class="price">
+									<span>$7.00</span>
+								</div>
+							</div>
+						</div>
+						<div class="item-product-cus">
+							<div class="img">
+								<img src="images/cake/delish-191015-turkey-cake-0184-landscape-pf-1572472343.jpg" alt="" width="100%">
+							</div>
+							<div class="in">
+								<div class="name">
+									<p>Oatmeal muffins</p>
+								</div>
+								<div class="price">
+									<span>$7.00</span>
+								</div>
+							</div>
+						</div>
+						<div class="item-product-cus">
+							<div class="img">
+								<img src="images/cake/delish-191015-turkey-cake-0184-landscape-pf-1572472343.jpg" alt="" width="100%">
+							</div>
+							<div class="in">
+								<div class="name">
+									<p>Oatmeal muffins</p>
+								</div>
+								<div class="price">
+									<span>$7.00</span>
+								</div>
+							</div>
+						</div>
+						</div>
+					</div>
+					<div class="display-none" id="itemPro2">
+						<div class="item-product flex" id="" style="">
+						<div class="item-product-cus">
+							<div class="img">
+								<img src="images/cake/16730-beckys-butter-cake-760x580.jpg" alt="" width="100%">
+							</div>
+							<div class="in">
+								<div class="name">
+									<p>Oatmeal muffins</p>
+								</div>
+								<div class="price">
+									<span>$7.00</span>
+								</div>
+							</div>
+						</div>
+						<div class="item-product-cus">
+							<div class="img">
+								<img src="images/cake/16730-beckys-butter-cake-760x580.jpg" alt="" width="100%">
+							</div>
+							<div class="in">
+								<div class="name">
+									<p>Oatmeal muffins</p>
+								</div>
+								<div class="price">
+									<span>$7.00</span>
+								</div>
+							</div>
+						</div>
+						<div class="item-product-cus">
+							<div class="img">
+								<img src="images/cake/16730-beckys-butter-cake-760x580.jpg" alt="" width="100%">
+							</div>
+							<div class="in">
+								<div class="name">
+									<p>Oatmeal muffins</p>
+								</div>
+								<div class="price">
+									<span>$7.00</span>
+								</div>
+							</div>
+						</div>
+						<div class="item-product-cus">
+							<div class="img">
+								<img src="images/cake/16730-beckys-butter-cake-760x580.jpg" alt="" width="100%">
+							</div>
+							<div class="in">
+								<div class="name">
+									<p>Oatmeal muffins</p>
+								</div>
+								<div class="price">
+									<span>$7.00</span>
+								</div>
+							</div>
+						</div>
+						<div class="item-product-cus">
+							<div class="img">
+								<img src="images/cake/16730-beckys-butter-cake-760x580.jpg" alt="" width="100%">
+							</div>
+							<div class="in">
+								<div class="name">
+									<p>Oatmeal muffins</p>
+								</div>
+								<div class="price">
+									<span>$7.00</span>
+								</div>
+							</div>
+						</div>
+						<div class="item-product-cus">
+							<div class="img">
+								<img src="images/cake/16730-beckys-butter-cake-760x580.jpg" alt="" width="100%">
+							</div>
+							<div class="in">
+								<div class="name">
+									<p>Oatmeal muffins</p>
+								</div>
+								<div class="price">
+									<span>$7.00</span>
+								</div>
+							</div>
+						</div>
+						<div class="item-product-cus">
+							<div class="img">
+								<img src="images/cake/16730-beckys-butter-cake-760x580.jpg" alt="" width="100%">
+							</div>
+							<div class="in">
+								<div class="name">
+									<p>Oatmeal muffins</p>
+								</div>
+								<div class="price">
+									<span>$7.00</span>
+								</div>
+							</div>
+						</div>
+						<div class="item-product-cus">
+							<div class="img">
+								<img src="images/cake/16730-beckys-butter-cake-760x580.jpg" alt="" width="100%">
+							</div>
+							<div class="in">
+								<div class="name">
+									<p>Oatmeal muffins</p>
+								</div>
+								<div class="price">
+									<span>$7.00</span>
+								</div>
+							</div>
+						</div>
+						<div class="item-product-cus">
+							<div class="img">
+								<img src="images/cake/16730-beckys-butter-cake-760x580.jpg" alt="" width="100%">
+							</div>
+							<div class="in">
+								<div class="name">
+									<p>Oatmeal muffins</p>
+								</div>
+								<div class="price">
+									<span>$7.00</span>
+								</div>
+							</div>
+						</div>
+						<div class="item-product-cus">
+							<div class="img">
+								<img src="images/cake/16730-beckys-butter-cake-760x580.jpg" alt="" width="100%">
+							</div>
+							<div class="in">
+								<div class="name">
+									<p>Oatmeal muffins</p>
+								</div>
+								<div class="price">
+									<span>$7.00</span>
+								</div>
+							</div>
+						</div>
+						<div class="item-product-cus">
+							<div class="img">
+								<img src="images/cake/16730-beckys-butter-cake-760x580.jpg" alt="" width="100%">
+							</div>
+							<div class="in">
+								<div class="name">
+									<p>Oatmeal muffins</p>
+								</div>
+								<div class="price">
+									<span>$7.00</span>
+								</div>
+							</div>
+						</div>
+						<div class="item-product-cus">
+							<div class="img">
+								<img src="images/cake/16730-beckys-butter-cake-760x580.jpg" alt="" width="100%">
+							</div>
+							<div class="in">
+								<div class="name">
+									<p>Oatmeal muffins</p>
+								</div>
+								<div class="price">
+									<span>$7.00</span>
+								</div>
+							</div>
+						</div>
+						</div>
+					</div>
+					<div class="display-none" id="itemPro3">
+						<div class="item-product flex" id="" style="">
+						<div class="item-product-cus">
+							<div class="img">
+								<img src="images/cake/Choc-Fudge-Cake-b2d1909.jpg" alt="" width="100%">
+							</div>
+							<div class="in">
+								<div class="name">
+									<p>Oatmeal muffins</p>
+								</div>
+								<div class="price">
+									<span>$7.00</span>
+								</div>
+							</div>
+						</div>
+						<div class="item-product-cus">
+							<div class="img">
+								<img src="images/cake/Choc-Fudge-Cake-b2d1909.jpg" alt="" width="100%">
+							</div>
+							<div class="in">
+								<div class="name">
+									<p>Oatmeal muffins</p>
+								</div>
+								<div class="price">
+									<span>$7.00</span>
+								</div>
+							</div>
+						</div>
+						<div class="item-product-cus">
+							<div class="img">
+								<img src="images/cake/Choc-Fudge-Cake-b2d1909.jpg" alt="" width="100%">
+							</div>
+							<div class="in">
+								<div class="name">
+									<p>Oatmeal muffins</p>
+								</div>
+								<div class="price">
+									<span>$7.00</span>
+								</div>
+							</div>
+						</div>
+						<div class="item-product-cus">
+							<div class="img">
+								<img src="images/cake/Choc-Fudge-Cake-b2d1909.jpg" alt="" width="100%">
+							</div>
+							<div class="in">
+								<div class="name">
+									<p>Oatmeal muffins</p>
+								</div>
+								<div class="price">
+									<span>$7.00</span>
+								</div>
+							</div>
+						</div>
+						<div class="item-product-cus">
+							<div class="img">
+								<img src="images/cake/Choc-Fudge-Cake-b2d1909.jpg" alt="" width="100%">
+							</div>
+							<div class="in">
+								<div class="name">
+									<p>Oatmeal muffins</p>
+								</div>
+								<div class="price">
+									<span>$7.00</span>
+								</div>
+							</div>
+						</div>
+						<div class="item-product-cus">
+							<div class="img">
+								<img src="images/cake/Choc-Fudge-Cake-b2d1909.jpg" alt="" width="100%">
+							</div>
+							<div class="in">
+								<div class="name">
+									<p>Oatmeal muffins</p>
+								</div>
+								<div class="price">
+									<span>$7.00</span>
+								</div>
+							</div>
+						</div>
+						<div class="item-product-cus">
+							<div class="img">
+								<img src="images/cake/Choc-Fudge-Cake-b2d1909.jpg" alt="" width="100%">
+							</div>
+							<div class="in">
+								<div class="name">
+									<p>Oatmeal muffins</p>
+								</div>
+								<div class="price">
+									<span>$7.00</span>
+								</div>
+							</div>
+						</div>
+						<div class="item-product-cus">
+							<div class="img">
+								<img src="images/cake/Choc-Fudge-Cake-b2d1909.jpg" alt="" width="100%">
+							</div>
+							<div class="in">
+								<div class="name">
+									<p>Oatmeal muffins</p>
+								</div>
+								<div class="price">
+									<span>$7.00</span>
+								</div>
+							</div>
+						</div>
+						<div class="item-product-cus">
+							<div class="img">
+								<img src="images/cake/Choc-Fudge-Cake-b2d1909.jpg" alt="" width="100%">
+							</div>
+							<div class="in">
+								<div class="name">
+									<p>Oatmeal muffins</p>
+								</div>
+								<div class="price">
+									<span>$7.00</span>
+								</div>
+							</div>
+						</div>
+						<div class="item-product-cus">
+							<div class="img">
+								<img src="images/cake/Choc-Fudge-Cake-b2d1909.jpg" alt="" width="100%">
+							</div>
+							<div class="in">
+								<div class="name">
+									<p>Oatmeal muffins</p>
+								</div>
+								<div class="price">
+									<span>$7.00</span>
+								</div>
+							</div>
+						</div>
+						<div class="item-product-cus">
+							<div class="img">
+								<img src="images/cake/Choc-Fudge-Cake-b2d1909.jpg" alt="" width="100%">
+							</div>
+							<div class="in">
+								<div class="name">
+									<p>Oatmeal muffins</p>
+								</div>
+								<div class="price">
+									<span>$7.00</span>
+								</div>
+							</div>
+						</div>
+						<div class="item-product-cus">
+							<div class="img">
+								<img src="images/cake/Choc-Fudge-Cake-b2d1909.jpg" alt="" width="100%">
+							</div>
+							<div class="in">
+								<div class="name">
+									<p>Oatmeal muffins</p>
+								</div>
+								<div class="price">
+									<span>$7.00</span>
+								</div>
+							</div>
+						</div>
+						</div>
+					</div>
+					<div class="display-none" id="itemPro4">
+						<div class="item-product flex" id="" style="">
+						<div class="item-product-cus">
+							<div class="img">
+								<img src="images/cake/vanilla-cake-thumb-500x500.jpg" alt="" width="100%">
+							</div>
+							<div class="in">
+								<div class="name">
+									<p>Oatmeal muffins</p>
+								</div>
+								<div class="price">
+									<span>$7.00</span>
+								</div>
+							</div>
+						</div>
+						<div class="item-product-cus">
+							<div class="img">
+								<img src="images/cake/vanilla-cake-thumb-500x500.jpg" alt="" width="100%">
+							</div>
+							<div class="in">
+								<div class="name">
+									<p>Oatmeal muffins</p>
+								</div>
+								<div class="price">
+									<span>$7.00</span>
+								</div>
+							</div>
+						</div>
+						<div class="item-product-cus">
+							<div class="img">
+								<img src="images/cake/vanilla-cake-thumb-500x500.jpg" alt="" width="100%">
+							</div>
+							<div class="in">
+								<div class="name">
+									<p>Oatmeal muffins</p>
+								</div>
+								<div class="price">
+									<span>$7.00</span>
+								</div>
+							</div>
+						</div>
+						<div class="item-product-cus">
+							<div class="img">
+								<img src="images/cake/vanilla-cake-thumb-500x500.jpg" alt="" width="100%">
+							</div>
+							<div class="in">
+								<div class="name">
+									<p>Oatmeal muffins</p>
+								</div>
+								<div class="price">
+									<span>$7.00</span>
+								</div>
+							</div>
+						</div>
+						<div class="item-product-cus">
+							<div class="img">
+								<img src="images/cake/vanilla-cake-thumb-500x500.jpg" alt="" width="100%">
+							</div>
+							<div class="in">
+								<div class="name">
+									<p>Oatmeal muffins</p>
+								</div>
+								<div class="price">
+									<span>$7.00</span>
+								</div>
+							</div>
+						</div>
+						<div class="item-product-cus">
+							<div class="img">
+								<img src="images/cake/vanilla-cake-thumb-500x500.jpg" alt="" width="100%">
+							</div>
+							<div class="in">
+								<div class="name">
+									<p>Oatmeal muffins</p>
+								</div>
+								<div class="price">
+									<span>$7.00</span>
+								</div>
+							</div>
+						</div>
+						<div class="item-product-cus">
+							<div class="img">
+								<img src="images/cake/vanilla-cake-thumb-500x500.jpg" alt="" width="100%">
+							</div>
+							<div class="in">
+								<div class="name">
+									<p>Oatmeal muffins</p>
+								</div>
+								<div class="price">
+									<span>$7.00</span>
+								</div>
+							</div>
+						</div>
+						<div class="item-product-cus">
+							<div class="img">
+								<img src="images/cake/vanilla-cake-thumb-500x500.jpg" alt="" width="100%">
+							</div>
+							<div class="in">
+								<div class="name">
+									<p>Oatmeal muffins</p>
+								</div>
+								<div class="price">
+									<span>$7.00</span>
+								</div>
+							</div>
+						</div>
+						<div class="item-product-cus">
+							<div class="img">
+								<img src="images/cake/vanilla-cake-thumb-500x500.jpg" alt="" width="100%">
+							</div>
+							<div class="in">
+								<div class="name">
+									<p>Oatmeal muffins</p>
+								</div>
+								<div class="price">
+									<span>$7.00</span>
+								</div>
+							</div>
+						</div>
+						<div class="item-product-cus">
+							<div class="img">
+								<img src="images/cake/vanilla-cake-thumb-500x500.jpg" alt="" width="100%">
+							</div>
+							<div class="in">
+								<div class="name">
+									<p>Oatmeal muffins</p>
+								</div>
+								<div class="price">
+									<span>$7.00</span>
+								</div>
+							</div>
+						</div>
+						<div class="item-product-cus">
+							<div class="img">
+								<img src="images/cake/vanilla-cake-thumb-500x500.jpg" alt="" width="100%">
+							</div>
+							<div class="in">
+								<div class="name">
+									<p>Oatmeal muffins</p>
+								</div>
+								<div class="price">
+									<span>$7.00</span>
+								</div>
+							</div>
+						</div>
+						<div class="item-product-cus">
+							<div class="img">
+								<img src="images/cake/vanilla-cake-thumb-500x500.jpg" alt="" width="100%">
+							</div>
+							<div class="in">
+								<div class="name">
+									<p>Oatmeal muffins</p>
+								</div>
+								<div class="price">
+									<span>$7.00</span>
+								</div>
+							</div>
+						</div>
+						</div>
+					</div>
+					<div class="page flex">
+						<div class="btn js-btn" id="btn1">
+							<button type="" onclick="itemPro1()">1</button>
+						</div>
+						<div class="btn" id="btn2">
+							<button type="" onclick="itemPro2()">2</button>
+						</div>
+						<div class="btn" id="btn3">
+							<button type="" onclick="itemPro3()">3</button>
+						</div>
+						<div class="btn" id="btn4">
+							<button type="" onclick="itemPro4()">4</button>
+						</div>
+						<div class="btn" id="btn5">
+							<button type="" onclick="itemProNext()"><i class="fa fa-angle-double-right" aria-hidden="true"></i>
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="footer">
+		<div class="container flex">
+			<div class="info">
+				<div class="logo">
+					<a href="">
+						<img src="images/logo/logo4.png" alt="">
+					</a>
+				</div>
+				<div class="info-text">
+					<p>ThemeMu comes with powerful theme options, which empowers you to quickly and easily build incredible store.</p>
+				</div>
+				<div class="icon-contact flex">
+					<div class="fb width25o">
+						<a href="" title="">
+							<i class="fab fa-facebook"></i>					
+						</a>
+					</div>
+					<div class="twitter width25o">
+						<a href="" title="">
+							<i class="fab fa-twitter"></i>
+						</a>
+					</div>
+					<div class="viber width25o">
+						<a href="" title="">
+							<i class="fab fa-viber"></i>
+						</a>
+					</div>
+					<div class="insta width25o">
+						<a href="" title="">
+							<i class="fab fa-instagram"></i>
+						</a>
+					</div> 
+				</div>
+			</div>
+			<div class="contact">
+				<div class="title">
+					<h3>Contact</h3>
+				</div>
+				<div class="info-contact">
+					<div class="add flex">
+						<div class="icon">
+							<i class="fa fa-map-marker" aria-hidden="true"></i>
+						</div>
+						<div class="info-add width70">
+							<p><span>Address: </span>105, B Block, West Street, London, BCA, UK</p>
+						</div>
+					</div>
+					<div class="phone flex">
+						<div class="icon">
+							<i class="fas fa-phone"></i>
+						</div>
+						<div class="info-phone width70">
+							<p><span>Phone: </span>800 000 000</p>
+						</div>
+					</div>
+					<div class="email flex">
+						<div class="icon">
+							<i class="fas fa-envelope"></i>
+						</div>
+						<div class="info-email width70">
+							<p><span>Email: </span>happfarm@support.com</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="recent-post">
+				<div class="title">
+					<h3>Recent post</h3>
+				</div>
+				<div class="content1 flex">
+					<div class="img">
+						
+					</div>
+					<div class="post width70">
+						<p><span>Etiam accumsan conse-quat libero et tincidunt <br></span>Aug 18, 2018</p>
+					</div>
+				</div>
+				<div class="content2 flex">
+					<div class="img">
+						
+					</div>
+					<div class="post width70">
+						<p><span>Etiam accumsan conse-quat libero et tincidunt <br></span>Aug 18, 2018</p>
+					</div>
+				</div>
+			</div>
+			<div class="insta-photos">
+				<div class="title">
+					<h3>Photo in instagram</h3>
+				</div>
+				<div class="content">
+					
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="copyright">
+		<div class="container flex">
+			<div class="left">
+				<p>Copyright &copy 2019 Bakery - Designed by ThemeMu</p>
+			</div>
+			<div class="right">
+				<ul>
+					<li><a href="">Contact</a></li>
+					<li><a href="">Site map</a></li>
+					<li><a href="">Policy</a></li>
+					<li><a href="">Term of Use Privacy</a></li>
+					<li><a href="">Pay</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="opAll" id="opAll" onclick="back()">
+		
+	</div>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/jquery.validate.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/index.js"></script>
+	<script src="js/product.js"></script>
+	<script src="js/wow.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,125 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+.footer{
+	background: #242424
+}
+.footer p{
+	color: white;
+	opacity: 0.5;
+}
+.footer span{
+	color: #C8AA78;
+}
+.footer .contact .info-contact i{
+	color: #C8AA78;
+	padding: 5px
+}
+.footer .title{
+	padding-bottom: 10px;
+	color: white;
+	font-weight: bold;
+}
+.footer .icon-contact i{
+	color: white;
+	background: #C8AA78;
+	padding: 10px;
+	border-radius: 50%
+}
+.footer .info{
+	width: 100%;
+	text-align: center;
+}
+.footer .contact{
+	width: 100%;
+	/*text-align: center;*/
+}
+.footer .recent-post{
+	display: none
+	/*text-align: center;*/
+}
+.footer .insta-photos{
+	display: none
+	/*text-align: center;*/
+}
+.copyright{
+	background: black;
+	padding: 20px 0px 10px 0px
+}
+.copyright .left{
+	width: 100%
+}
+.copyright p{
+	color: white;
+	opacity: 0.3
+}
+.copyright .right{
+	text-align: right;
+	display: none
+}
+@media screen and (min-width: 768px) {
+.footer .info{
+	width: 25%;
+	text-align: left;
+}
+.footer .contact{
+	width: 25%;
+	/*text-align: center;*/
+}
+.footer .recent-post{
+	width: 25%;
+	display: block;
+	/*text-align: center;*/
+}
+.footer .insta-photos{
+	width: 25%;
+	display: block;
+	/*text-align: center;*/
+}
+.footer .logo{
+	padding-bottom: 10px
+}
+.footer .info{
+	padding-right: 10px
+}
+.footer .icon{
+	width: 20%
+}
+.footer .img{
+	width: 30%
+}
+.recent-post input{
+	
+}
+
+/*css copyright;*/
+.copyright .left{
+	width: 50%
+}
+.copyright .right{
+	width: 50%
+}
+.copyright{
+	background: black;
+	padding: 20px 0px 10px 0px
+}
+.copyright p{
+	color: white;
+	opacity: 0.3
+}
+.copyright .right{
+	float: right;
+	display: block;
+}
+.copyright .right ul li{
+	list-style: none;
+	display: inline-block;
+	padding: 0px 10px
+}
+.copyright .right ul li a{
+	color: white;
+	opacity: 0.3;
+}
+}
